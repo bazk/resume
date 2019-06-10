@@ -13,7 +13,7 @@ const Container = styled.header`
   align-items: flex-end;
   justify-content: space-between;
   padding: 1rem 0;
-  border-bottom: 4px solid #cccccc;
+  border-bottom: 4px solid #e6e6e6;
 `;
 
 const Title = styled.div`

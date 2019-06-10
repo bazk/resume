@@ -7,20 +7,9 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import styled from "styled-components"
+import styled, { createGlobalStyle } from "styled-components"
 
 import bg from '../images/bg.jpg';
-
-const Background = styled.div`
-  margin: 0;
-  padding: 0;
-  background: red;
-  display: flex;
-  flex-direction: row;
-  background-image: url(${props => props.image});
-  background-position: center;
-  background-size: cover;
-`;
 
 const Content = styled.div`
   box-sizing: border-box;
@@ -28,22 +17,57 @@ const Content = styled.div`
   max-width: 960px;
   min-height: 120vh;
   padding: 1rem 2rem;
-  display: flex;
-  flex-direction: column;
   background: white;
-  flex-grow: 1;
-  flex-shrink: 1;
   box-shadow: 1px 1px 5px -2px rgba(0, 0, 0, 0.6);
+
+  @media print {
+    margin: 0;
+    max-width: initial;
+    padding: 0;
+    box-shadow: none;
+  }
+`;
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    background-image: url(${props => props.bg});
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  @page {
+    size: A4
+  }
+
+  @media print {
+    html {
+      font-size: 14px;
+    }
+
+    body {
+      background: none;
+    }
+
+    p, li {
+      page-break-after: auto;
+      page-break-inside: avoid;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      page-break-after:avoid;
+      page-break-inside: avoid;
+    }
+  }
 `;
 
 const Layout = ({ children }) => (
-  <Background
-    image={bg}
-  >
+  <React.Fragment>
+    <GlobalStyle bg={bg} />
     <Content>
       {children}
     </Content>
-  </Background>
+  </React.Fragment>
 )
 
 Layout.propTypes = {
