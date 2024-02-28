@@ -9,7 +9,6 @@ import ExperienceJob from "../components/ExperienceJob"
 import Bullet from "../components/Bullet"
 import TagGroup from "../components/TagGroup"
 import Tag from "../components/Tag"
-import PageBreak from "../components/PageBreak"
 import { ExperienceProject } from "../components/ExperienceProject"
 
 const IndexPage = () => (
@@ -234,8 +233,6 @@ const IndexPage = () => (
               </ExperienceJob>
             </Timeline.Item>
 
-            <PageBreak />
-
             <Timeline.Item>
               <ExperienceJob
                 title="Desenvolvedor"
@@ -335,8 +332,6 @@ const IndexPage = () => (
             </Timeline>
           </ExperienceJob>
         </section>
-
-        <PageBreak />
 
         <section>
           <h2>Publicações</h2>

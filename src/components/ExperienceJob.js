@@ -4,16 +4,12 @@ import styled from "styled-components"
 
 import DateIntervalSeparator from "./DateIntervalSeparator"
 
-const Wrapper = styled.div`
-  page-break-inside: avoid;
-`
-
 const Secondary = styled.span`
   color: #2e9a82;
 `
 
 const ExperienceJob = ({ title, company, fromDate, toDate, children }) => (
-  <Wrapper>
+  <>
     {title && company && (
       <h3>
         {title} <Secondary>@ {company}</Secondary>
@@ -33,7 +29,7 @@ const ExperienceJob = ({ title, company, fromDate, toDate, children }) => (
     {!fromDate && toDate && <p>{toDate}</p>}
 
     {children}
-  </Wrapper>
+  </>
 )
 
 ExperienceJob.propTypes = {
