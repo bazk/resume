@@ -17,6 +17,7 @@ import { ExperienceProject } from "@/components/ExperienceProject";
 import { TagGroup } from "@/components/TagGroup";
 import { Tag } from "@/components/Tag";
 import { Bullet } from "@/components/Bullet";
+import { Certification } from "@/components/Certification";
 
 const messages = {
   en: {
@@ -29,6 +30,8 @@ const messages = {
     technicalSkills: "Technical skills",
     softSkills: "Soft skills",
     languages: "Languages",
+    issuedAt: "Issued {date}",
+    expiredAt: "Expires {date}",
   },
   pt: {
     summary: "Resumo",
@@ -40,6 +43,8 @@ const messages = {
     technicalSkills: "Conhecimentos Técnicos",
     softSkills: "Habilidades e Competências",
     languages: "Idiomas",
+    issuedAt: "Emitido {date}",
+    expiredAt: "Expiração {date}",
   },
 };
 
@@ -185,14 +190,16 @@ export default function ResumePage({ lang }: ResumePageProps) {
           {data.certifications && (
             <section>
               <h2>{t("certifications")}</h2>
-              {data.certifications.map((certification, idx) => (
-                <ExperienceJob
+              {data.certifications.map((cert, idx) => (
+                <Certification
                   key={idx}
-                  title={l(certification.title)}
-                  fromDate={l(certification.issueDate)}
+                  title={l(cert.title)}
+                  organization={l(cert.organization)}
+                  fromDate={`${t("issuedAt", { date: l(cert.issueDate) })}`}
+                  toDate={`${t("expiredAt", { date: l(cert.expirationDate) })}`}
                 >
-                  {l(certification.description)}
-                </ExperienceJob>
+                  {l(cert.description)}
+                </Certification>
               ))}
             </section>
           )}

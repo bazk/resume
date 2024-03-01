@@ -724,5 +724,12 @@ export const BazkResume: Resume = {
     },
   ],
 
-  // certifications: [],
+  certifications: [
+    {
+      title: "AWS Certified Solutions Architect - Associate",
+      organization: "Amazon Web Services (AWS)",
+      issueDate: { en: "March 2020", pt: "Março 2020" },
+      expirationDate: { en: "March 2023", pt: "Março 2023" },
+    },
+  ],
 };
