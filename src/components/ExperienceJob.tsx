@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 import { DateIntervalSeparator } from "@/components/DateIntervalSeparator";
+import { useDateFormatter } from "@/hooks/useDateFormatter";
+import { useTranslations } from "next-intl";
 
 const Secondary = styled.span`
   color: #2e9a82;
@@ -9,8 +11,8 @@ const Secondary = styled.span`
 export type ExperienceJobProps = {
   title?: string;
   company?: string;
-  fromDate?: string;
-  toDate?: string;
+  fromDate?: Date;
+  toDate?: Date;
   children: React.ReactNode;
 };
 
@@ -21,6 +23,10 @@ export function ExperienceJob({
   toDate,
   children,
 }: ExperienceJobProps) {
+  const d = useDateFormatter("MMM/yyyy");
+
+  const t = useTranslations();
+
   return (
     <>
       {title && company && (
@@ -33,13 +39,17 @@ export function ExperienceJob({
 
       {fromDate && toDate && (
         <p>
-          {fromDate}
+          {d(fromDate)}
           <DateIntervalSeparator />
-          {toDate}
+          {d(toDate)}
         </p>
       )}
-      {fromDate && !toDate && <p>{fromDate}</p>}
-      {!fromDate && toDate && <p>{toDate}</p>}
+      {fromDate && !toDate && (
+        <p>
+          {d(fromDate)} <DateIntervalSeparator /> {t("present")}
+        </p>
+      )}
+      {!fromDate && toDate && <p>{d(toDate)}</p>}
 
       {children}
     </>

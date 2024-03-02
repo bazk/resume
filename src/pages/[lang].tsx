@@ -18,6 +18,7 @@ import { TagGroup } from "@/components/TagGroup";
 import { Tag } from "@/components/Tag";
 import { Bullet } from "@/components/Bullet";
 import { Certification } from "@/components/Certification";
+import { Publication } from "@/components/Publication";
 
 const messages = {
   en: {
@@ -36,6 +37,7 @@ const messages = {
       expiredAt: "Expired at",
       viewCertificate: "View certificate",
     },
+    present: "present",
   },
   pt: {
     summary: "Resumo",
@@ -53,6 +55,7 @@ const messages = {
       expiredAt: "Expirado em",
       viewCertificate: "Visualizar certitificado",
     },
+    present: "presente",
   },
 };
 
@@ -82,9 +85,6 @@ export const getStaticProps: GetStaticProps = ({ params }) => {
   return {
     props: {
       lang,
-      // fromDate={`${t("issuedAt", { date: l(cert.issueDate) })}`}
-      // toDate={`${t("expiredAt", { date: l(cert.expirationDate) })}`}
-
       messages: messages[lang],
     },
   };
@@ -142,8 +142,8 @@ export default function ResumePage({ lang }: ResumePageProps) {
                     <ExperienceJob
                       title={l(job.title)}
                       company={l(job.company)}
-                      fromDate={l(job.fromDate)}
-                      toDate={l(job.toDate)}
+                      fromDate={job.fromDate}
+                      toDate={job.toDate}
                     >
                       {l(job.description)}
                       {job.projects && (
@@ -174,8 +174,8 @@ export default function ResumePage({ lang }: ResumePageProps) {
                   key={idx}
                   title={l(academic.title)}
                   company={l(academic.organization)}
-                  fromDate={l(academic.fromDate)}
-                  toDate={l(academic.toDate)}
+                  fromDate={academic.fromDate}
+                  toDate={academic.toDate}
                 >
                   {l(academic.description)}
                   {academic.projects && (
@@ -184,8 +184,8 @@ export default function ResumePage({ lang }: ResumePageProps) {
                         <TimelineItem key={idx}>
                           <ExperienceProject
                             title={l(project.title) || ""}
-                            fromDate={l(project.fromDate)}
-                            toDate={l(project.toDate)}
+                            fromDate={project.fromDate}
+                            toDate={project.toDate}
                           >
                             {l(project.description)}
                           </ExperienceProject>
@@ -220,13 +220,15 @@ export default function ResumePage({ lang }: ResumePageProps) {
             <section>
               <h2>{t("publications")}</h2>
               {data.publications.map((publication, idx) => (
-                <ExperienceJob
+                <Publication
                   key={idx}
                   title={l(publication.title)}
-                  fromDate={l(publication.publicationDate)}
+                  organization={l(publication.journal)}
+                  publicationDate={publication.publicationDate}
+                  doi={publication.doi}
                 >
                   {l(publication.description)}
-                </ExperienceJob>
+                </Publication>
               ))}
             </section>
           )}

@@ -204,8 +204,7 @@ export const BazkResume: Resume = {
         pt: "Arquiteto de Canais Digitais",
       },
       company: "GFT",
-      fromDate: { en: "January 2022", pt: "Janeiro 2022" },
-      toDate: { en: "present", pt: "atualmente" },
+      fromDate: new Date("2022-01-01"),
       description: {
         en: (
           <p>
@@ -391,8 +390,8 @@ export const BazkResume: Resume = {
     {
       title: { en: "Front-end Developer", pt: "Desenvolvedor Front-end" },
       company: "GFT",
-      fromDate: { en: "July 2019", pt: "Julho 2019" },
-      toDate: { en: "December 2021", pt: "Dezembro 2021" },
+      fromDate: new Date("2019-07-01"),
+      toDate: new Date("2021-12-01"),
       projects: [
         {
           title: "Banco BV",
@@ -435,8 +434,8 @@ export const BazkResume: Resume = {
     {
       title: { en: "Co-founder & CTO", pt: "Co-founder & CTO" },
       company: "Contraktor",
-      fromDate: { en: "September 2016", pt: "Setembro 2016" },
-      toDate: { en: "April 2019", pt: "Abril 2019" },
+      fromDate: new Date("2016-09-01"),
+      toDate: new Date("2019-04"),
       description: {
         en: (
           <>
@@ -522,8 +521,8 @@ export const BazkResume: Resume = {
     {
       title: { en: "Software developer", pt: "Desenvolvedor" },
       company: "Centro de Computação Científica e Software Livre (C3SL)",
-      fromDate: { en: "October 2011", pt: "Outubro 2011" },
-      toDate: { en: "November 2016", pt: "Novembro 2016" },
+      fromDate: new Date("2011-08-01"),
+      toDate: new Date("2016-11-01"),
       description: {
         en: (
           <>
@@ -618,16 +617,16 @@ export const BazkResume: Resume = {
         pt: "Bacharelado em Ciência da Computação",
       },
       organization: "Universidade Federal do Paraná (UFPR)",
-      fromDate: { en: "July 2009", pt: "Julho 2009" },
-      toDate: { en: "December 2014", pt: "Dezembro 2014" },
+      fromDate: new Date("2009-07-01"),
+      toDate: new Date("2014-12-01"),
       projects: [
         {
           title: {
             en: "Scientific Initiation Program",
             pt: "Iniciação Científica Voluntária",
           },
-          fromDate: { en: "July 2012", pt: "Julho 2012" },
-          toDate: { en: "July 2013", pt: "Julho 2013" },
+          fromDate: new Date("2012-07-01"),
+          toDate: new Date("2013-07-01"),
           description: {
             en: (
               <>
@@ -672,8 +671,8 @@ export const BazkResume: Resume = {
             en: "Teaching and Research Initiation Program",
             pt: "Programa de Iniciação à Docência - Monitoria",
           },
-          fromDate: { en: "March 2010", pt: "Março 2010" },
-          toDate: { en: "December 2010", pt: "Dezembro 2010" },
+          fromDate: new Date("2010-03-01"),
+          toDate: new Date("2010-12-01"),
           description: {
             en: (
               <p>
@@ -700,7 +699,8 @@ export const BazkResume: Resume = {
       title:
         "A Case Study of the Aggregation Query Model in Read-Mostly NoSQL Document Stores",
       journal: "IDEAS 2016",
-      publicationDate: { en: "July 2016", pt: "Julho 2016" },
+      publicationDate: new Date("2016-07-01"),
+      doi: "10.1145/2938503.2938546",
       description: {
         en: (
           <p>

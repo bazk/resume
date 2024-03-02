@@ -1,5 +1,7 @@
 import styled from "styled-components";
+
 import { DateIntervalSeparator } from "./DateIntervalSeparator";
+import { useDateFormatter } from "@/hooks/useDateFormatter";
 
 const Wrapper = styled.div`
   margin-left: 1rem;
@@ -7,8 +9,8 @@ const Wrapper = styled.div`
 
 export type ExperienceProjectProps = {
   title: string;
-  fromDate?: string;
-  toDate?: string;
+  fromDate?: Date;
+  toDate?: Date;
   children?: React.ReactNode;
 };
 
@@ -18,19 +20,21 @@ export function ExperienceProject({
   toDate,
   children,
 }: ExperienceProjectProps) {
+  const d = useDateFormatter("MMM/yyyy");
+
   return (
     <Wrapper>
       <h5>{title}</h5>
 
       {fromDate && toDate && (
         <p>
-          {fromDate}
+          {d(fromDate)}
           <DateIntervalSeparator />
-          {toDate}
+          {d(toDate)}
         </p>
       )}
-      {fromDate && !toDate && <p>{fromDate}</p>}
-      {!fromDate && toDate && <p>{toDate}</p>}
+      {fromDate && !toDate && <p>{d(fromDate)}</p>}
+      {!fromDate && toDate && <p>{d(toDate)}</p>}
 
       {children}
     </Wrapper>

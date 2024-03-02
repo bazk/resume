@@ -26,7 +26,7 @@ const Title = styled.h3`
 
 const Organization = styled.h4`
   color: #2e9a82;
-  margin-bottom: 0.75em;
+  margin-bottom: 0.5em;
 `;
 
 const CertLink = styled.a`
@@ -71,11 +71,9 @@ export function Certification({
   link,
   children,
 }: CertificationProps) {
-  const locale = useLocale();
+  const d = useDateFormatter("MMM/yyyy");
 
   const t = useTranslations("certification");
-
-  const d = useDateFormatter("MMM/yyyy", locale);
 
   const isExpired = expirationDate && expirationDate < new Date();
   const issuedAt = issueDate && t("issuedAt");

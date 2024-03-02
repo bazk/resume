@@ -23,8 +23,8 @@ export interface Resume {
   jobExperiences?: {
     title: OptionallyLocalized<string>;
     company?: OptionallyLocalized<string>;
-    fromDate: OptionallyLocalized<string>;
-    toDate?: OptionallyLocalized<string>;
+    fromDate: Date;
+    toDate?: Date;
     description?: OptionallyLocalized<ReactNode>;
     projects?: {
       title: OptionallyLocalized<string>;
@@ -35,13 +35,13 @@ export interface Resume {
   academicExperiences?: {
     title: OptionallyLocalized<string>;
     organization?: OptionallyLocalized<string>;
-    fromDate: OptionallyLocalized<string>;
-    toDate?: OptionallyLocalized<string>;
+    fromDate: Date;
+    toDate?: Date;
     description?: OptionallyLocalized<ReactNode>;
     projects?: {
       title: OptionallyLocalized<string>;
-      fromDate?: OptionallyLocalized<string>;
-      toDate?: OptionallyLocalized<string>;
+      fromDate?: Date;
+      toDate?: Date;
       description?: OptionallyLocalized<ReactNode>;
     }[];
   }[];
@@ -58,8 +58,10 @@ export interface Resume {
   publications?: {
     title: OptionallyLocalized<string>;
     journal?: OptionallyLocalized<string>;
-    publicationDate?: OptionallyLocalized<string>;
+    publicationDate?: Date;
     description?: OptionallyLocalized<ReactNode>;
+    doi?: string;
+    link?: string;
   }[];
 
   technicalSkills?: {
