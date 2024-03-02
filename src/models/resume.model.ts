@@ -49,8 +49,8 @@ export interface Resume {
   certifications?: {
     title: OptionallyLocalized<string>;
     organization?: OptionallyLocalized<string>;
-    issueDate?: OptionallyLocalized<string>;
-    expirationDate?: OptionallyLocalized<string>;
+    issueDate?: Date;
+    expirationDate?: Date;
     description?: OptionallyLocalized<ReactNode>;
     link?: string;
   }[];

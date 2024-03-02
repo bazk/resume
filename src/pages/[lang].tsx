@@ -30,9 +30,12 @@ const messages = {
     technicalSkills: "Technical skills",
     softSkills: "Soft skills",
     languages: "Languages",
-    issuedAt: "Issued {date}",
-    expiredAt: "Expires {date}",
-    viewCertificate: "View certificate",
+    certification: {
+      issuedAt: "Issued at",
+      expiresAt: "Expires at",
+      expiredAt: "Expired at",
+      viewCertificate: "View certificate",
+    },
   },
   pt: {
     summary: "Resumo",
@@ -44,9 +47,12 @@ const messages = {
     technicalSkills: "Conhecimentos Técnicos",
     softSkills: "Habilidades e Competências",
     languages: "Idiomas",
-    issuedAt: "Emitido {date}",
-    expiredAt: "Expiração {date}",
-    viewCertificate: "Visualizar certitificado",
+    certification: {
+      issuedAt: "Emitido em",
+      expiresAt: "Expira em",
+      expiredAt: "Expirado em",
+      viewCertificate: "Visualizar certitificado",
+    },
   },
 };
 
@@ -76,6 +82,9 @@ export const getStaticProps: GetStaticProps = ({ params }) => {
   return {
     props: {
       lang,
+      // fromDate={`${t("issuedAt", { date: l(cert.issueDate) })}`}
+      // toDate={`${t("expiredAt", { date: l(cert.expirationDate) })}`}
+
       messages: messages[lang],
     },
   };
@@ -197,8 +206,8 @@ export default function ResumePage({ lang }: ResumePageProps) {
                   key={idx}
                   title={l(cert.title)}
                   organization={l(cert.organization)}
-                  fromDate={`${t("issuedAt", { date: l(cert.issueDate) })}`}
-                  toDate={`${t("expiredAt", { date: l(cert.expirationDate) })}`}
+                  issueDate={cert.issueDate}
+                  expirationDate={cert.expirationDate}
                   link={cert.link}
                 >
                   {l(cert.description)}

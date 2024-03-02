@@ -1,8 +1,9 @@
 import styled from "styled-components";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 import { DateIntervalSeparator } from "@/components/DateIntervalSeparator";
 import { IconLink } from "@/icons/IconLink";
+import { useDateFormatter } from "@/hooks/useDateFormatter";
 
 const Wrapper = styled.div`
   display: flex;
@@ -56,8 +57,8 @@ const CertLink = styled.a`
 export type CertificationProps = {
   title?: string;
   organization?: string;
-  fromDate?: string;
-  toDate?: string;
+  issueDate?: Date;
+  expirationDate?: Date;
   link?: string;
   children: React.ReactNode;
 };
@@ -65,12 +66,20 @@ export type CertificationProps = {
 export function Certification({
   title,
   organization,
-  fromDate,
-  toDate,
+  issueDate,
+  expirationDate,
   link,
   children,
 }: CertificationProps) {
-  const t = useTranslations();
+  const locale = useLocale();
+
+  const t = useTranslations("certification");
+
+  const d = useDateFormatter("MMM/yyyy", locale);
+
+  const isExpired = expirationDate && expirationDate < new Date();
+  const issuedAt = issueDate && t("issuedAt");
+  const expiresAt = expirationDate && t(isExpired ? "expiredAt" : "expiresAt");
 
   return (
     <Wrapper>
@@ -78,15 +87,23 @@ export function Certification({
         <Title>{title}</Title>
         {organization && <Organization>{organization}</Organization>}
 
-        {fromDate && toDate && (
+        {issuedAt && expiresAt && (
           <p>
-            {fromDate}
+            {issuedAt} {d(issueDate)}
             <DateIntervalSeparator />
-            {toDate}
+            {expiresAt} {d(expirationDate)}
           </p>
         )}
-        {fromDate && !toDate && <p>{fromDate}</p>}
-        {!fromDate && toDate && <p>{toDate}</p>}
+        {issuedAt && !expiresAt && (
+          <p>
+            {issuedAt} {d(issueDate)}
+          </p>
+        )}
+        {!issuedAt && expiresAt && (
+          <p>
+            {expiresAt} {d(expirationDate)}
+          </p>
+        )}
 
         {children}
 
