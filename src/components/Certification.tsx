@@ -25,20 +25,20 @@ const Title = styled.h3`
 `;
 
 const Organization = styled.h4`
-  color: #2e9a82;
+  color: rgb(var(--primary-rgb));
   margin-bottom: 0.5em;
 `;
 
 const CertLink = styled.a`
   margin-top: 0.75em;
-  color: #2e9a82;
-  border: 1px solid #2e9a82;
+  color: rgb(var(--primary-rgb));
+  border: 1px solid rgb(var(--primary-rgb));
   border-radius: 4px;
   padding: 0.5em 1em;
   display: inline-flex;
   align-items: center;
 
-  transition: all 300ms cubic-bezier(0.16, 1, 0.3, 1);
+  transition: var(--transition-short);
 
   > * {
     margin-right: 0.5rem;
@@ -49,7 +49,7 @@ const CertLink = styled.a`
   }
 
   &:hover {
-    background-color: #2e9a82;
+    background-color: rgb(var(--primary-rgb));
     color: white;
   }
 `;

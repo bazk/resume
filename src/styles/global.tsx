@@ -19,6 +19,27 @@ const cssVariables = css`
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 214, 219, 220;
     --background-end-rgb: 255, 255, 255;
+
+    --page-width: 960px;
+
+    --primary-rgb: 46, 154, 130;
+
+    --text-color: rgb(var(--foreground-rgb));
+    --text-color-light: rgba(var(--foreground-rgb), 0.4);
+    --text-color-lighter: rgba(var(--foreground-rgb), 0.15);
+
+    --transition-easing-short: cubic-bezier(0.16, 1, 0.3, 1);
+    --transition-easing-long: cubic-bezier(0.5, 1, 0.89, 1);
+
+    --transition-timing-short: 200ms;
+    --transition-timing-long: 600ms;
+
+    --transition-short: all var(--transition-timing-short)
+      var(--transition-easing-short);
+    --transition-long: all var(--transition-timing-long)
+      var(--transition-easing-long);
+
+    --box-shadow: 1px 1px 5px -2px rgba(0, 0, 0, 0.6);
   }
 `;
 
@@ -111,11 +132,11 @@ const typography = css`
   }
   h2 {
     margin-top: 2.9rem !important;
-    color: hsla(237, 7.877824834000002%, 0%, 0.59);
+    color: var(--text-color-light);
     font-size: 0.88889rem;
     line-height: 1.45rem;
     text-transform: uppercase;
-    border-bottom: 2px solid #e6e6e6;
+    border-bottom: 2px solid var(--text-color-lighter);
   }
   h3 {
     margin-top: 1.45rem !important;
@@ -146,7 +167,7 @@ const typography = css`
     margin: 0;
     padding: 0;
     margin-bottom: calc(1.45rem - 1px);
-    background: hsla(0, 0%, 0%, 0.2);
+    background: var(--text-color-light)
     border: none;
     height: 1px;
   }

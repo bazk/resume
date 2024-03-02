@@ -16,6 +16,6 @@ export const TagGroup = styled.ul`
     margin-top: 0.5em;
     margin-left: 0.375em;
     margin-bottom: 0.2em;
-    color: #a5a5a5;
+    color: var(--text-color-light);
   }
 `;

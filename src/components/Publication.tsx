@@ -20,7 +20,7 @@ const Title = styled.h3`
 `;
 
 const Organization = styled.h4`
-  color: #2e9a82;
+  color: rgb(var(--primary-rgb));
   margin-bottom: 0.5em;
 `;
 
@@ -29,15 +29,15 @@ const DOILink = styled.a`
   align-items: center;
   text-decoration: none;
 
-  transition: all 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  transition: var(--transition-short);
 
   > :first-child {
-    color: #999;
+    color: var(--text-color-light);
   }
 
   &:hover,
   &:hover > :first-child {
-    color: #2e9a82;
+    color: rgb(var(--primary-rgb));
     text-decoration: underline;
   }
 `;

@@ -5,7 +5,7 @@ import { useDateFormatter } from "@/hooks/useDateFormatter";
 import { useTranslations } from "next-intl";
 
 const Secondary = styled.span`
-  color: #2e9a82;
+  color: rgb(var(--primary-rgb));
 `;
 
 export type ExperienceJobProps = {

@@ -20,7 +20,7 @@ export const TimelineItem = styled.div`
     position: absolute;
     left: calc(-1rem - 0.25rem);
     top: 0.5rem;
-    background: #dcdcdc;
+    background: var(--text-color-lighter);
     border-radius: 100%;
   }
 
@@ -32,6 +32,6 @@ export const TimelineItem = styled.div`
     position: absolute;
     left: calc(-1rem - 1px);
     top: 1.5rem;
-    background: #e6e6e6;
+    background: var(--text-color-lighter);
   }
 `;

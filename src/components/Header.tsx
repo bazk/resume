@@ -12,7 +12,7 @@ const Container = styled.header`
   align-items: flex-end;
   justify-content: space-between;
   padding: 1rem 0;
-  border-bottom: 4px solid #e6e6e6;
+  border-bottom: 4px solid var(--text-color-lighter);
 `;
 
 const Title = styled.div`
@@ -34,7 +34,7 @@ const ProfileItem = styled.li`
 `;
 
 const IconWrapper = styled.span`
-  color: #cecece;
+  color: var(--text-color-lighter);
   margin-left: 0.5rem;
 `;
 
