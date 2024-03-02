@@ -4,6 +4,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { DateIntervalSeparator } from "@/components/DateIntervalSeparator";
 import { IconLink } from "@/icons/IconLink";
 import { useDateFormatter } from "@/hooks/useDateFormatter";
+import { useRouter } from "next/router";
 
 const Wrapper = styled.div`
   display: flex;
@@ -73,6 +74,8 @@ export function Certification({
   image,
   children,
 }: CertificationProps) {
+  const router = useRouter();
+
   const d = useDateFormatter("MMM/yyyy");
 
   const t = useTranslations("certification");
@@ -117,7 +120,10 @@ export function Certification({
 
       {image && (
         <CertAside>
-          <img src={image} alt={title} />
+          <img
+            src={image.startsWith("/") ? `${router.basePath}${image}` : image}
+            alt={title}
+          />
         </CertAside>
       )}
     </Wrapper>
