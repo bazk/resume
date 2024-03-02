@@ -59,8 +59,6 @@ export function Publication({
 }: PublicationProps) {
   const d = useDateFormatter("MMM/yyyy");
 
-  const t = useTranslations("publication");
-
   return (
     <Wrapper>
       <Main>
