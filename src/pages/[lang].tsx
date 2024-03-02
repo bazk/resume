@@ -209,6 +209,7 @@ export default function ResumePage({ lang }: ResumePageProps) {
                   issueDate={cert.issueDate}
                   expirationDate={cert.expirationDate}
                   link={cert.link}
+                  image={cert.image}
                 >
                   {l(cert.description)}
                 </Certification>

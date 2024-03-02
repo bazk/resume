@@ -60,6 +60,7 @@ export type CertificationProps = {
   issueDate?: Date;
   expirationDate?: Date;
   link?: string;
+  image?: string;
   children: React.ReactNode;
 };
 
@@ -69,6 +70,7 @@ export function Certification({
   issueDate,
   expirationDate,
   link,
+  image,
   children,
 }: CertificationProps) {
   const d = useDateFormatter("MMM/yyyy");
@@ -113,9 +115,11 @@ export function Certification({
         )}
       </CertMain>
 
-      <CertAside>
-        <img src="/images/aws-certified-solutions-architect.png" alt={title} />
-      </CertAside>
+      {image && (
+        <CertAside>
+          <img src={image} alt={title} />
+        </CertAside>
+      )}
     </Wrapper>
   );
 }
