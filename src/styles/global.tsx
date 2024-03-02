@@ -131,7 +131,7 @@ const typography = css`
     line-height: 1.1;
   }
   h2 {
-    margin-top: 2.9rem !important;
+    margin-top: 2.9rem;
     color: var(--text-color-light);
     font-size: 0.88889rem;
     line-height: 1.45rem;
@@ -139,7 +139,7 @@ const typography = css`
     border-bottom: 2px solid var(--text-color-lighter);
   }
   h3 {
-    margin-top: 1.45rem !important;
+    margin-top: 1.45rem;
     font-size: 1.31951rem;
     line-height: 1.1;
   }

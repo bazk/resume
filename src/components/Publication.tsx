@@ -16,6 +16,7 @@ const Main = styled.div`
 `;
 
 const Title = styled.h3`
+  margin-top: 0;
   margin-bottom: 0.25em;
 `;
 
