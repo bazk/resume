@@ -9,6 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <NextIntlClientProvider
       locale={pageProps.lang || "en"}
+      timeZone="UTC"
       messages={pageProps.messages}
     >
       <StyledComponentsRegistry>
