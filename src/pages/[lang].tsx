@@ -32,6 +32,7 @@ const messages = {
     languages: "Languages",
     issuedAt: "Issued {date}",
     expiredAt: "Expires {date}",
+    viewCertificate: "View certificate",
   },
   pt: {
     summary: "Resumo",
@@ -45,6 +46,7 @@ const messages = {
     languages: "Idiomas",
     issuedAt: "Emitido {date}",
     expiredAt: "Expiração {date}",
+    viewCertificate: "Visualizar certitificado",
   },
 };
 
@@ -197,6 +199,7 @@ export default function ResumePage({ lang }: ResumePageProps) {
                   organization={l(cert.organization)}
                   fromDate={`${t("issuedAt", { date: l(cert.issueDate) })}`}
                   toDate={`${t("expiredAt", { date: l(cert.expirationDate) })}`}
+                  link={cert.link}
                 >
                   {l(cert.description)}
                 </Certification>

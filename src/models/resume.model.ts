@@ -52,6 +52,7 @@ export interface Resume {
     issueDate?: OptionallyLocalized<string>;
     expirationDate?: OptionallyLocalized<string>;
     description?: OptionallyLocalized<ReactNode>;
+    link?: string;
   }[];
 
   publications?: {

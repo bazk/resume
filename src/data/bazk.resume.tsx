@@ -730,6 +730,7 @@ export const BazkResume: Resume = {
       organization: "Amazon Web Services (AWS)",
       issueDate: { en: "March 2020", pt: "Março 2020" },
       expirationDate: { en: "March 2023", pt: "Março 2023" },
+      link: "https://www.credly.com/badges/01442cb9-4225-46fb-8c45-dc35437e837f",
     },
   ],
 };
