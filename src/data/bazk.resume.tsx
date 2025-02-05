@@ -7,7 +7,7 @@ export const BazkResume: Resume = {
       pt: "Currículo",
     },
     description: {
-      en: "Eduardo Buratti's Resume, software engineer.",
+      en: "Eduardo Buratti's Resume, software engineer & architect.",
       pt: "Currículo de Eduardo Buratti, arquiteto e engenheiro de software.",
     },
     keywords: [
@@ -37,7 +37,7 @@ export const BazkResume: Resume = {
   header: {
     name: "Eduardo Luis Buratti",
     tagline: {
-      en: "Software Engineer",
+      en: "Software Engineer & Architect",
       pt: "Arquiteto & Engenheiro de Software | Canais Digitais",
     },
     email: "eburatti09@gmail.com",
@@ -57,12 +57,13 @@ export const BazkResume: Resume = {
     en: (
       <ul>
         <li>
-          Software engineer & architect with more than 12 years of experience in
-          digital channels.
+          Software engineer & architect with more than 13 years of experience in
+          full-stack web development and more than 3 years in mobile
+          development.
         </li>
         <li>
-          Focus on Web technologies (React, Angular and Vue), Mobile (iOS, React
-          Native) and Cloud (AWS mainly).
+          Focus on full-stack Web technologies (React, Angular, Node.js and
+          .NET), Mobile (iOS, React Native) and Cloud (AWS mainly).
         </li>
         <li>
           Experienced in the roles of software architect and technical
@@ -74,12 +75,13 @@ export const BazkResume: Resume = {
     pt: (
       <ul>
         <li>
-          Arquiteto e engenheiro de software com mais de 12 anos de experiência
-          em canais digitais.
+          Arquiteto e engenheiro de software com mais de 13 anos de experiência
+          em desenvolvimento Web full-stack e mais de 3 anos em desenvolvimento
+          Mobile.
         </li>
         <li>
-          Foco em tecnologias Web (React, Angular e Vue), Mobile (iOS, React
-          Native) e Cloud (AWS principalmente).
+          Foco em tecnologias Web (React, Angular, Node.js e .NET), Mobile (iOS,
+          React Native) e Cloud (AWS principalmente).
         </li>
         <li>
           Experiente nos papéis de arquitetura e liderança técnica, auxiliando
@@ -96,7 +98,15 @@ export const BazkResume: Resume = {
         en: "Programming languages",
         pt: "Linguagens de programação",
       },
-      skills: ["JavaScript", "TypeScript", "Elixir", "Python", "Java"],
+      skills: [
+        "JavaScript",
+        "TypeScript",
+        "C#",
+        "Elixir",
+        "Python",
+        "Swift",
+        "Java",
+      ],
     },
     {
       category: {
@@ -107,6 +117,8 @@ export const BazkResume: Resume = {
         "React",
         "Next.js",
         "React Native",
+        "Expo",
+        ".NET",
         "Swift (iOS)",
         "Angular",
         "Angular.js",
@@ -143,7 +155,6 @@ export const BazkResume: Resume = {
         "Terraform (IaC)",
         "GitLab CI/CD",
         "Azure DevOps",
-        "AppCenter",
       ],
     },
     {
@@ -151,7 +162,7 @@ export const BazkResume: Resume = {
         en: "Team & Management",
         pt: "Equipe & Gestão",
       },
-      skills: ["Lean", "Agile Software Development", "Scrum"],
+      skills: ["Lean", "Agile", "Scrum", "SAFE"],
     },
   ],
 
@@ -225,7 +236,43 @@ export const BazkResume: Resume = {
       },
       projects: [
         {
-          title: "GFT Digital Studio",
+          title: { en: "Sofisa Bank", pt: "Banco Sofisa" },
+          description: {
+            en: (
+              <p>
+                Project for building a new Mobile and Web application to serve
+                the corporate clients of Banco Sofisa. The challenge in this
+                project was the simultaneous development of the application for
+                both Web and Mobile platforms while reusing as much code as
+                possible. My role in this project began with the technical
+                solution design and commercial proposal, where React Native was
+                chosen as the core technology to meet the cross-platform
+                requirements. Additionally, I took on the technical leadership
+                of the team during development, ensuring the quality and
+                efficiency of the delivery.
+              </p>
+            ),
+            pt: (
+              <p>
+                Projeto de construção de uma nova aplicação Mobile e Web para
+                atender o público pessoa jurídica do Banco Sofisa. O desafio
+                neste projeto foi a construção simultaneamente da aplicação
+                tanto para a plataforma Web quanto para Mobile, reaproveitando o
+                máximo de código possível. Meu papel neste projeto teve início
+                na concepção da solução técnica e proposta comercial, onde foi
+                definida a tecnologia React Native como base para atender a
+                necessidade multiplataforma. Além disso, atuei na liderança
+                técnica do time durante o desenvolvimento, garantindo a
+                qualidade e eficiência da entrega.
+              </p>
+            ),
+          },
+        },
+        {
+          title: {
+            en: "GFT Digital Studio - Business Development",
+            pt: "GFT Digital Studio - Desenvolvimento de Negócios",
+          },
           description: {
             en: (
               <p>
