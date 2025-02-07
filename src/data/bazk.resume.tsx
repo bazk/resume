@@ -28,7 +28,7 @@ export const BazkResume: Resume = {
         pt: "programador",
       },
       {
-        en: "arquiteto",
+        en: "architect",
         pt: "arquiteto",
       },
     ],
@@ -57,18 +57,18 @@ export const BazkResume: Resume = {
     en: (
       <ul>
         <li>
-          Software engineer & architect with more than 13 years of experience in
+          Software engineer and architect with over 13 years of experience in
           full-stack web development and more than 3 years in mobile
           development.
         </li>
         <li>
-          Focus on full-stack Web technologies (React, Angular, Node.js and
-          .NET), Mobile (iOS, React Native) and Cloud (AWS mainly).
+          Specialized in full-stack web technologies (React, Angular, Node.js,
+          and .NET), mobile development (iOS, React Native), and cloud services
+          (primarily AWS).
         </li>
         <li>
-          Experienced in the roles of software architect and technical
-          leadership, helping teams develop technical solutions aligned with the
-          business vision.
+          Experienced in software architecture and technical leadership, guiding
+          teams to develop technical solutions aligned with business goals.
         </li>
       </ul>
     ),
@@ -76,17 +76,18 @@ export const BazkResume: Resume = {
       <ul>
         <li>
           Arquiteto e engenheiro de software com mais de 13 anos de experiência
-          em desenvolvimento Web full-stack e mais de 3 anos em desenvolvimento
-          Mobile.
+          em desenvolvimento web full-stack e mais de 3 anos em desenvolvimento
+          mobile.
         </li>
         <li>
-          Foco em tecnologias Web (React, Angular, Node.js e .NET), Mobile (iOS,
-          React Native) e Cloud (AWS principalmente).
+          Especialista em tecnologias web (React, Angular, Node.js e .NET),
+          desenvolvimento mobile (iOS, React Native) e serviços de cloud
+          (principalmente AWS).
         </li>
         <li>
-          Experiente nos papéis de arquitetura e liderança técnica, auxiliando
-          os times a desenvolver soluções técnicas alinhas com a visão de
-          negócio.
+          Experiência em arquitetura de software e liderança técnica, orientando
+          equipes a desenvolver soluções técnicas alinhadas com os objetivos de
+          negócios.
         </li>
       </ul>
     ),
@@ -95,8 +96,8 @@ export const BazkResume: Resume = {
   technicalSkills: [
     {
       category: {
-        en: "Programming languages",
-        pt: "Linguagens de programação",
+        en: "Programming Languages",
+        pt: "Linguagens de Programação",
       },
       skills: [
         "JavaScript",
@@ -110,8 +111,8 @@ export const BazkResume: Resume = {
     },
     {
       category: {
-        en: "Frameworks and tools",
-        pt: "Frameworks e ferramentas",
+        en: "Frameworks and Tools",
+        pt: "Frameworks e Ferramentas",
       },
       skills: [
         "React",
@@ -131,7 +132,7 @@ export const BazkResume: Resume = {
     {
       category: {
         en: "Databases",
-        pt: "Banco de dados",
+        pt: "Bancos de Dados",
       },
       skills: [
         "PostgreSQL",
@@ -162,25 +163,25 @@ export const BazkResume: Resume = {
         en: "Team & Management",
         pt: "Equipe & Gestão",
       },
-      skills: ["Lean", "Agile", "Scrum", "SAFE"],
+      skills: ["Lean", "Agile", "Scrum", "SAFe"],
     },
   ],
 
   softSkills: [
     {
-      en: "Ease of learning and sharing new concepts and technologies",
-      pt: "Facilidade no aprendizado e compartilhamento de novos conceitos e tecnologias",
+      en: "Quick to learn and share technical knowledge",
+      pt: "Aprendizagem rápida e habilidade em compartilhar conhecimentos",
     },
     {
       en: "Technical leadership",
       pt: "Liderança técnica",
     },
     {
-      en: "Bussiness vision",
+      en: "Business vision",
       pt: "Visão de negócio",
     },
     {
-      en: "Motivated and creative in face of challenges",
+      en: "Motivated and creative when facing challenges",
       pt: "Motivado e criativo diante de desafios",
     },
   ],
@@ -202,7 +203,7 @@ export const BazkResume: Resume = {
         pt: "Inglês",
       },
       proficiency: {
-        en: "Advanced reading, writing and conversation",
+        en: "Advanced reading, writing, and conversation",
         pt: "Leitura, escrita e conversação avançada",
       },
     },
@@ -211,26 +212,26 @@ export const BazkResume: Resume = {
   jobExperiences: [
     {
       title: {
-        en: "Digital Channels Architect",
-        pt: "Arquiteto de Canais Digitais",
+        en: "Software Architect",
+        pt: "Arquiteto de Software",
       },
       company: "GFT",
       fromDate: new Date("2022-01-01"),
       description: {
         en: (
           <p>
-            As a software architect at GFT, in addition to supporting various
-            projects in resolving technical issues, I also play a support role
-            for the commercial team, seeking to align our customers needs with
-            robust, scalable, and efficient technical solutions.
+            As a software architect at GFT, I support various projects by
+            resolving technical issues and assisting the commercial team. My
+            role involves aligning customer needs with robust, scalable, and
+            efficient technical solutions.
           </p>
         ),
         pt: (
           <p>
-            Como arquiteto de software na GFT, além de apoiar diversos projetos
-            na resolução de problemas técnicos, também desempenho um papel de
-            apoio ao time comercial, buscando aliar as necessidades de nossos
-            clientes a soluções técnicas robustas, escaláveis e eficientes.
+            Como arquiteto de software na GFT, apoio diversos projetos na
+            resolução de problemas técnicos e assisto a equipe comercial. Meu
+            papel envolve alinhar as necessidades dos clientes com soluções
+            técnicas robustas, escaláveis e eficientes.
           </p>
         ),
       },
@@ -240,30 +241,24 @@ export const BazkResume: Resume = {
           description: {
             en: (
               <p>
-                Project for building a new Mobile and Web application to serve
-                the corporate clients of Banco Sofisa. The challenge in this
-                project was the simultaneous development of the application for
-                both Web and Mobile platforms while reusing as much code as
-                possible. My role in this project began with the technical
-                solution design and commercial proposal, where React Native was
-                chosen as the core technology to meet the cross-platform
-                requirements. Additionally, I took on the technical leadership
-                of the team during development, ensuring the quality and
-                efficiency of the delivery.
+                Developed a new Mobile and Web application for Banco Sofisa's
+                corporate clients. The challenge was simultaneous development
+                for both platforms while maximizing code reuse. I led the
+                technical solution design and commercial proposal, selecting
+                React Native for its cross-platform capabilities, and provided
+                technical leadership during development to ensure quality and
+                efficiency.
               </p>
             ),
             pt: (
               <p>
-                Projeto de construção de uma nova aplicação Mobile e Web para
-                atender o público pessoa jurídica do Banco Sofisa. O desafio
-                neste projeto foi a construção simultaneamente da aplicação
-                tanto para a plataforma Web quanto para Mobile, reaproveitando o
-                máximo de código possível. Meu papel neste projeto teve início
-                na concepção da solução técnica e proposta comercial, onde foi
-                definida a tecnologia React Native como base para atender a
-                necessidade multiplataforma. Além disso, atuei na liderança
-                técnica do time durante o desenvolvimento, garantindo a
-                qualidade e eficiência da entrega.
+                Desenvolvi uma nova aplicação Mobile e Web para os clientes
+                corporativos do Banco Sofisa. O desafio foi o desenvolvimento
+                simultâneo para ambas as plataformas, maximizando o
+                reaproveitamento de código. Liderei a concepção da solução
+                técnica e a proposta comercial, escolhendo React Native por suas
+                capacidades multiplataforma, e forneci liderança técnica durante
+                o desenvolvimento para garantir qualidade e eficiência.
               </p>
             ),
           },
@@ -276,28 +271,24 @@ export const BazkResume: Resume = {
           description: {
             en: (
               <p>
-                The Digital Studio is the area of GFT that centralizes the
-                expertise in digital channels (Web and Mobile development),
-                customer experience, agility, and digital assets. My focus on
-                the team is to support commercial activities in opportunities
-                related to digital channels, combining the needs of our
-                customers with the search for innovative and optimized technical
-                solutions. In addition, we carry out various training and
-                qualification actions for GFT professionals, evolving our
-                community of Mobile and Web developers.
+                The Digital Studio at GFT centralizes expertise in digital
+                channels, customer experience, agility, and digital assets. I
+                support commercial activities related to digital channels,
+                aligning customer needs with innovative and optimized technical
+                solutions. Additionally, we conduct training and qualification
+                actions for GFT professionals, enhancing our community of Mobile
+                and Web developers.
               </p>
             ),
             pt: (
               <p>
-                O Digital Studio é a área da GFT que centraliza as expertises de
-                canais digitais (desenvolvimento Web e Mobile), experiência do
-                cliente, agilidade e assets digitais. Meu foco no time é apoiar
-                nas atividades comerciais em oportunidades relacionadas a canais
-                digitais, aliando as necessidades de nossos clientes a busca por
-                soluções técnicas inovadoras e otimizadas. Além disso,
-                realizamos diversas ações de treinamento e capacitação dos
-                profissionais GFT, evoluindo nossa comunidade de desenvolvedores
-                Mobile e Web.
+                O Digital Studio da GFT centraliza expertise em canais digitais,
+                experiência do cliente, agilidade e ativos digitais. Apoio
+                atividades comerciais relacionadas a canais digitais, alinhando
+                as necessidades dos clientes com soluções técnicas inovadoras e
+                otimizadas. Além disso, realizamos ações de treinamento e
+                qualificação para profissionais da GFT, aprimorando nossa
+                comunidade de desenvolvedores Mobile e Web.
               </p>
             ),
           },
@@ -307,32 +298,24 @@ export const BazkResume: Resume = {
           description: {
             en: (
               <p>
-                Bradesco Bank, based in Coral Gables, Florida, is a division of
-                Bradesco focused on providing financial services to more than
-                11,000 non-resident customers in the United States. I
-                participated in the modernization of the Mobile and Web
-                application experience, leading a development team focused on
-                React and Python technologies. The biggest challenge was
-                alignment with various third-party tools that made up the
-                application, with the goal of developing improvements within the
-                limitations of these. We made several structural improvements in
-                technology, while delivering more optimized journeys for the
-                bank&lsquo;s customers.
+                Bradesco Bank, based in Florida, serves over 11,000 non-resident
+                customers in the US. I led a team to modernize the full-stack
+                Web application experience using React and Python. The main
+                challenge was aligning with various third-party tools to develop
+                improvements within their limitations. We made structural
+                technology improvements while delivering optimized customer
+                journeys.
               </p>
             ),
             pt: (
               <p>
-                O Bradesco Bank, baseado em Coral Gables, Florida, é uma divisão
-                do Bradesco focada em prover serviços financeiros a mais de 11
-                mil clientes não-residentes nos Estados Unidos. Atuei na
-                modernização da experiência do aplicativo Mobile e Web,
-                liderando um time de desenvolvimento focado nas tecnologias
-                React e Python. O maior desafio foi o alinhamento com as
-                diversas ferramentas de terceiros que compunham a aplicação, com
-                o objetivo de desenvolver as melhorias dentro das limitações
-                destas. Realizamos diversas melhorias estruturais em tecnologia,
-                ao mesmo tempo que entregamos jornadas mais otimizadas para os
-                clientes do banco.
+                O Bradesco Bank, localizado na Flórida, atende mais de 11 mil
+                clientes não-residentes nos EUA. Liderei uma equipe para
+                modernizar a experiência da aplicação Web full-stack usando
+                React e Python. O principal desafio foi alinhar com várias
+                ferramentas de terceiros para desenvolver melhorias dentro de
+                suas limitações. Fizemos melhorias estruturais na tecnologia
+                enquanto entregávamos jornadas otimizadas para os clientes.
               </p>
             ),
           },
@@ -342,24 +325,23 @@ export const BazkResume: Resume = {
           description: {
             en: (
               <p>
-                One of the internal projects that I executed at GFT was a
-                management tool, in which I was involved from the conception of
-                the project, architecting the solution as a whole, including
-                Cloud infrastructure (AWS), development pipeline (Gitlab CI,
-                Cypress, AWS Serverless), back-end (.NET) and front-end
-                (Angular). I led the development and testing team throughout the
-                delivery of various features.
+                I led the development of a management tool at GFT, from project
+                conception to solution architecture, including Cloud
+                infrastructure (AWS), development pipeline (Gitlab CI, Cypress,
+                AWS Serverless), back-end (.NET), and front-end (Angular). I led
+                the development and testing team throughout the delivery of
+                various features.
               </p>
             ),
             pt: (
               <p>
-                Um dos projetos internos que eu executei na GFT era relacionada
-                a cosntrução de uma ferramenta de gestão, na qual atuei desde a
-                concepção do projeto, arquitetando a solução como um todo,
-                incluíndo infraestrutura Cloud (AWS), esteira de desenvolvimento
-                (Gitlab CI, Cypress, AWS Serverless), back-end (.NET) e
-                front-end (Angular). Liderei o time de desenvolvimento e testes
-                ao longo da entrega de diversas funcionalidades.
+                Liderei o desenvolvimento de uma ferramenta de gestão na GFT,
+                desde a concepção do projeto até a arquitetura da solução,
+                incluindo infraestrutura Cloud (AWS), pipeline de
+                desenvolvimento (Gitlab CI, Cypress, AWS Serverless), back-end
+                (.NET) e front-end (Angular). Liderei a equipe de
+                desenvolvimento e testes durante a entrega de várias
+                funcionalidades.
               </p>
             ),
           },
@@ -370,27 +352,26 @@ export const BazkResume: Resume = {
             en: (
               <p>
                 Mitre Realty, as a company in the civil construction industry,
-                seeking to stay close to its customers, built a mobile
-                application called Mitre Experience, based on React Native,
-                Node.js and Oracle. I acted as technical leader in a squad for
-                the evolution of this product, focused on delivering more
-                personalized experiences to users, based on data, geolocation,
-                etc. In addition, I performed several optimizations in the
-                automated testing and development pipeline, using Gitlab CI,
-                Playwright and App Center+CodePush.
+                developed a mobile application called Mitre Experience, based on
+                React Native, Node.js, and Oracle, to stay close to its
+                customers. I acted as the technical leader in a squad focused on
+                evolving this product, delivering personalized experiences to
+                users based on data and geolocation. Additionally, I optimized
+                the automated testing and development pipeline using Gitlab CI,
+                Playwright, and App Center+CodePush.
               </p>
             ),
             pt: (
               <p>
                 A Mitre Realty, como empresa no ramo de construção civíl,
-                buscando manter-se próxima de seus clientes, construiu um
-                aplicativo mobile chamado Mitre Experience, baseado em React
-                Native, Node.js e Oracle. Atuei como líder técnico em um squad
-                de evolução deste produto, como foco em entregar experiências
-                mais personalizadas aos usuários, com base em dados,
-                geolocalização, etc. Além disso, realizei diversas otimizações
-                na esteira de testes automatizados e desenvolvimento, usando
-                Gitlab CI, Playwrigth e App Center+CodePush.
+                desenvolveu um aplicativo mobile chamado Mitre Experience,
+                baseado em React Native, Node.js e Oracle, para se manter
+                próxima de seus clientes. Atuei como líder técnico em um squad
+                focado na evolução deste produto, entregando experiências
+                personalizadas aos usuários com base em dados e geolocalização.
+                Além disso, otimizei a esteira de testes automatizados e
+                desenvolvimento usando Gitlab CI, Playwright e App
+                Center+CodePush.
               </p>
             ),
           },
@@ -400,33 +381,25 @@ export const BazkResume: Resume = {
           description: {
             en: (
               <p>
-                I acted as a technical leader in a team of a Mitre group
-                spin-off company called Share Student Living. The business was
-                focused on providing shared apartment rentals for university
-                students. I acted on two fronts, the first was related to the
-                mobile application (React Native), in which we implemented new
-                features to allow students to make various common requests
-                through the App (self-service), without the need to contact the
-                call center and generate operational effort from the
-                back-office. The other front was related precisely to the system
-                used by the back-office, optimizing user journeys, reducing time
-                to execute various activities.
+                I led a team at Share Student Living, a Mitre group spin-off
+                focused on shared apartment rentals for university students. I
+                worked on the mobile application (React Native), implementing
+                new features for self-service requests, reducing the need for
+                call center contact. I also optimized the back-office system,
+                improving user journeys and reducing execution time for various
+                activities.
               </p>
             ),
             pt: (
               <p>
-                Atuei como líder técnico em um time de uma spin-off do grupo
-                Mitre chamada Share Student Living. O negócio era focado em
-                disponibilizar aluguel de apartamentos compartilhados para
-                estudantes universitários. Atuei em duas frentes, a primeira era
-                relacionada ao aplicativo mobile (React Native), no qual
-                implementamos novas funcionalidades para permitir aos estudantes
-                realizar diversas requisições comuns através do App
-                (self-service), sem a necessidade de contatar o call center e
-                gerar esforço operacional por parte do back-office. A outra
-                frente era relacionada justamente ao sistema utilizado pelo
-                back-office, otimizando as jornadas de usuário, reduzindo tempo
-                para execução de diversas atividades.
+                Liderei uma equipe na Share Student Living, uma spin-off do
+                grupo Mitre focada em aluguel de apartamentos compartilhados
+                para estudantes universitários. Trabalhei no aplicativo mobile
+                (React Native), implementando novas funcionalidades para
+                requisições self-service, reduzindo a necessidade de contato com
+                o call center. Também otimizei o sistema de back-office,
+                melhorando as jornadas de usuário e reduzindo o tempo de
+                execução de várias atividades.
               </p>
             ),
           },
@@ -445,32 +418,31 @@ export const BazkResume: Resume = {
           description: {
             en: (
               <p>
-                I worked as a front-end developer in a project to modernize and
-                restructure the digital channels of Banco BV. In the project, I
-                performed the migration of several legacy technologies
-                (Angular.js, JSP, etc.) to more modern and flexible platforms
-                (Angular 9/11, Liferay, etc.), transforming the entire content
-                management flow. I participated in the process of updating the
-                bank&lsquo;s brand, in which we made progressive adjustments to
-                the visual and verbal communication of the communication
-                channels (website, Web application). I worked with the Adobe
-                Maxymiser platform for A/B testing, later migrating to
-                Salesforce Marketing Cloud/Interaction Studio.
+                I worked as a front-end developer on a project to modernize and
+                restructure Banco BV's digital channels. My role involved
+                migrating several legacy technologies (Angular.js, JSP, etc.) to
+                more modern and flexible platforms (Angular 9/11, Liferay,
+                etc.), transforming the entire content management workflow. I
+                also participated in the bank's brand update process, making
+                progressive adjustments to the visual and verbal communication
+                of the channels (website, web application). Additionally, I
+                worked with the Adobe Maxymiser platform for A/B testing, later
+                migrating to Salesforce Marketing Cloud and Interaction Studio.
               </p>
             ),
             pt: (
               <p>
-                Atuei no papel de desenvolvedor front-end no projeto de
-                modernização e reestruturação dos canais digitais do banco BV.
-                Realizei migração de diversas tecnologias legadas (Angular.js,
+                Atuei como desenvolvedor front-end no projeto de modernização e
+                reestruturação dos canais digitais do Banco BV. Minha função
+                envolveu a migração de várias tecnologias legadas (Angular.js,
                 JSP, etc.) para plataformas mais modernas e flexíveis (Angular
                 9/11, Liferay, etc.), transformando todo o fluxo de gestão de
-                conteúdo. Participei do processo de atualização da marca do
-                banco, no qual realizamos progressivas adequações na comunição
-                visual e verbal dos canais de comunicação (site, aplicativo
-                Web). Atuei com a plataforma Adobe Maxymiser para testes A/B,
-                mais tarde migrando para Salesforce Marketing Cloud/Interaction
-                Studio.
+                conteúdo. Também participei do processo de atualização da marca
+                do banco, realizando ajustes progressivos na comunicação visual
+                e verbal dos canais (site, aplicativo web). Além disso,
+                trabalhei com a plataforma Adobe Maxymiser para testes A/B,
+                migrando posteriormente para o Salesforce Marketing Cloud e
+                Interaction Studio.
               </p>
             ),
           },
@@ -479,7 +451,7 @@ export const BazkResume: Resume = {
     },
 
     {
-      title: { en: "Co-founder & CTO", pt: "Co-founder & CTO" },
+      title: { en: "Co-founder & CTO", pt: "Co-fundador & CTO" },
       company: "Contraktor",
       fromDate: new Date("2016-09-01"),
       toDate: new Date("2019-04"),
@@ -487,78 +459,83 @@ export const BazkResume: Resume = {
         en: (
           <>
             <p>
-              As co-founder of the startup, I contributed since the beginning
-              for the construction of the main product. To this date, it is
-              active in several companies, facilitating all kinds of tasks
-              related to contract management, including document creation,
-              digital signature, etc.
+              As a co-founder of the startup, I played a crucial role in
+              developing the main product from the ground up. Today, it is
+              actively used by its numerous clients, streamlining various
+              contract management tasks, including document creation and digital
+              signatures.
             </p>
             <ul>
               <li>
-                Cloud computing management (mainly <strong>Amazon AWS</strong>)
+                Managed cloud computing infrastructure, primarily with{" "}
+                <strong>Amazon AWS</strong>
               </li>
               <li>
-                Continous Integration and Continous Delivery (
-                <strong>Gitlab CI/CD</strong>)
+                Implemented Continuous Integration and Continuous Delivery using{" "}
+                <strong>Gitlab CI/CD</strong>
               </li>
               <li>
-                Orchestration and provisioning of cloud resources (
-                <strong>Kubernetes</strong> and <strong>Terraform</strong>)
+                Orchestrated and provisioned cloud resources with{" "}
+                <strong>Kubernetes</strong> and <strong>Terraform</strong>
               </li>
               <li>
-                Front-end development with <strong>React</strong> (redux,
-                styled-components, <em>etc.</em>)
+                Developed front-end applications using <strong>React</strong>{" "}
+                (redux, styled-components, etc.)
               </li>
               <li>
-                API modeling (<strong>REST</strong> and <strong>GraphQL</strong>
-                )
+                Modeled APIs with <strong>REST</strong> and{" "}
+                <strong>GraphQL</strong>
               </li>
               <li>
-                Back-end development with <strong>Elixir</strong> and{" "}
+                Built back-end systems with <strong>Elixir</strong> and{" "}
                 <strong>Node.js</strong>
               </li>
-              <li>Project and team management</li>
-              <li>Scrum and Agile</li>
-              <li>Technical leadership, mentoring and team development</li>
+              <li>Managed projects and teams</li>
+              <li>Applied Scrum and Agile methodologies</li>
+              <li>
+                Provided technical leadership, mentoring, and team development
+              </li>
             </ul>
           </>
         ),
         pt: (
           <>
             <p>
-              Sou co-fundador e contribui desde o início para a construção do
-              produto. Presente em diversas empresas de pequeno, médio e grande
-              porte, a plataforma ajuda a desburocratizar todas as tarefas
-              ligadas a elaboração, gestão e assinatura de documentos digitais.
+              Como co-fundador, contribuí desde o início para a construção do
+              produto principal. Atualmente, ele é utilizado por diversas
+              empresas, facilitando tarefas relacionadas à gestão de contratos,
+              incluindo criação de documentos e assinaturas digitais.
             </p>
             <ul>
               <li>
-                Gerenciamento de computação em nuvem (principalmente{" "}
-                <strong>Amazon AWS</strong>)
+                Gerenciei a infraestrutura de computação em nuvem,
+                principalmente com <strong>Amazon AWS</strong>
               </li>
               <li>
-                Integração Contínua e Entrega Contínua (
-                <strong>Gitlab CI/CD</strong>)
+                Implementei Integração Contínua e Entrega Contínua usando{" "}
+                <strong>Gitlab CI/CD</strong>
               </li>
               <li>
-                Orquestração e provisionamento (<strong>Kubernetes</strong> e{" "}
-                <strong>Terraform</strong>)
+                Orquestrei e provisionei recursos em nuvem com{" "}
+                <strong>Kubernetes</strong> e <strong>Terraform</strong>
               </li>
               <li>
-                Desenvolvimento front-end com <strong>React</strong> (redux,
-                styled-components, <em>etc.</em>)
+                Desenvolvi aplicações front-end com <strong>React</strong>{" "}
+                (redux, styled-components, etc.)
               </li>
               <li>
-                Modelagem de APIs <strong>REST</strong> e{" "}
+                Modelei APIs com <strong>REST</strong> e{" "}
                 <strong>GraphQL</strong>
               </li>
               <li>
-                Desenvolvimento back-end com <strong>Elixir</strong> e{" "}
+                Construí sistemas back-end com <strong>Elixir</strong> e{" "}
                 <strong>Node.js</strong>
               </li>
-              <li>Gestão de equipes e projetos</li>
-              <li>Scrum e Agile</li>
-              <li>Liderança técnica, mentoria e treinamento de equipes</li>
+              <li>Gerenciei projetos e equipes</li>
+              <li>Apliquei metodologias Scrum e Agile</li>
+              <li>
+                Forneci liderança técnica, mentoria e desenvolvimento de equipes
+              </li>
             </ul>
           </>
         ),
@@ -566,7 +543,7 @@ export const BazkResume: Resume = {
     },
 
     {
-      title: { en: "Software developer", pt: "Desenvolvedor" },
+      title: { en: "Software Developer", pt: "Desenvolvedor" },
       company: "Centro de Computação Científica e Software Livre (C3SL)",
       fromDate: new Date("2011-08-01"),
       toDate: new Date("2016-11-01"),
@@ -579,36 +556,36 @@ export const BazkResume: Resume = {
                 Sistema Integrado de Monitoramento do Ministério das
                 Comunicações
               </em>{" "}
-              (SIMMC)&rdquo;. I worked since the beggining in both projects that
-              today are widely used by the brazilian governament. Reaching over
-              2,520 cities all around the country, their objective is to monitor
-              and assess the effectiveness of investments made in hardware and
-              network technology in social programs.
+              (SIMMC)&rdquo;. I was involved from the beginning in both
+              projects, which are now widely used by the Brazilian government.
+              Reaching over 2,520 cities across the country, their goal is to
+              monitor and assess the effectiveness of investments made in
+              hardware and network technology in social programs.
             </p>
             <ul>
               <li>
-                RESTful API development with <strong>Node.js</strong>
+                Developed RESTful APIs with <strong>Node.js</strong>
               </li>
               <li>
-                <strong>Data Warehouses</strong> architecture
+                Designed and maintained <strong>Data Warehouses</strong>
               </li>
               <li>
-                Database administration with <strong>PostgreSQL</strong> and{" "}
+                Managed databases with <strong>PostgreSQL</strong> and{" "}
                 <strong>MongoDB</strong>
               </li>
               <li>
-                Deployment of services with <strong>Docker</strong>
+                Deployed services using <strong>Docker</strong>
               </li>
               <li>
-                Development of Web applications with Play Framework (
+                Built web applications with Play Framework (
                 <strong>Java</strong>) and <strong>Angular.js</strong>
               </li>
               <li>
-                Team training (<strong>Node.js</strong> and{" "}
-                <strong>Angular.js</strong>)
+                Trained teams in <strong>Node.js</strong> and{" "}
+                <strong>Angular.js</strong>
               </li>
               <li>
-                <strong>Linux</strong> systems administration
+                Administered <strong>Linux</strong> systems
               </li>
             </ul>
           </>
@@ -618,15 +595,15 @@ export const BazkResume: Resume = {
             <p>
               Desenvolvimento Web para os projetos PROINFODATA e Sistema
               Integrado de Monitoramento do Ministério das Comunicações (SIMMC).
-              Dei inicio ao desenvolvimento dos projetos que hoje são amplamente
-              utilizados pelo governo brasileiro, atingindo mais de 2.520
-              municípios distribuídos por todo o Brasil. Tem como objetivo
-              monitorar a eficácia dos investimentos em recursos de hardware e
-              rede realizados em projetos sociais.
+              Participei desde o início do desenvolvimento dos projetos, que
+              hoje são amplamente utilizados pelo governo brasileiro, atingindo
+              mais de 2.520 municípios em todo o Brasil. O objetivo é monitorar
+              a eficácia dos investimentos em recursos de hardware e rede
+              realizados em programas sociais.
             </p>
             <ul>
               <li>
-                Criação de RESTful API’s com <strong>Node.js</strong>
+                Criação de APIs RESTful com <strong>Node.js</strong>
               </li>
               <li>
                 Modelagem e manutenção de <strong>Data Warehouses</strong>
@@ -636,8 +613,7 @@ export const BazkResume: Resume = {
                 <strong>MongoDB</strong>
               </li>
               <li>
-                Deploy de serviços utilizando a ferramenta{" "}
-                <strong>Docker</strong>
+                Deploy de serviços utilizando <strong>Docker</strong>
               </li>
               <li>
                 Construção de aplicações Web com os frameworks Play (
@@ -660,7 +636,7 @@ export const BazkResume: Resume = {
   academicExperiences: [
     {
       title: {
-        en: "Bachelor in Computer Science",
+        en: "Bachelor of Computer Science",
         pt: "Bacharelado em Ciência da Computação",
       },
       organization: "Universidade Federal do Paraná (UFPR)",
@@ -669,8 +645,8 @@ export const BazkResume: Resume = {
       projects: [
         {
           title: {
-            en: "Scientific Initiation Program",
-            pt: "Iniciação Científica Voluntária",
+            en: "Scientific Research Program",
+            pt: "Programa de Iniciação Científica",
           },
           fromDate: new Date("2012-07-01"),
           toDate: new Date("2013-07-01"),
@@ -678,30 +654,29 @@ export const BazkResume: Resume = {
             en: (
               <>
                 <p>
-                  Institutional Program of Scientific Initiation at the Federal
-                  University of Paraná. Publication in EVINCI 2014:{" "}
+                  Participated in the Institutional Program of Scientific
+                  Research at the Federal University of Paraná. Published in
+                  EVINCI 2014:{" "}
                   <em>
-                    &ldquo;Redes neurais artificiais aplicadas à robótica de
-                    enxame&rdquo;
+                    &ldquo;Artificial Neural Networks Applied to Swarm
+                    Robotics&rdquo;
                   </em>
-                  &nbsp; (
-                  <em>Artificial neural networks applied to swarm robotics</em>
-                  ).
+                  .
                 </p>
                 <p>
                   Advisor: Prof. Dr. Eduardo Jaques Spinosa - Information
-                  Technology Deparment (UFPR)
+                  Technology Department (UFPR)
                 </p>
               </>
             ),
             pt: (
               <>
                 <p>
-                  Bolsista de Iniciação Científica na Universidade Federal do
-                  Paraná. Participação no EVINCI 2014 com o tema:{" "}
+                  Programa Institucional de Iniciação Científica na Universidade
+                  Federal do Paraná. Publicação no EVINCI 2014:{" "}
                   <em>
-                    &ldquo;Redes neurais artificiais aplicadas à robótica de
-                    enxame&rdquo;
+                    &ldquo;Redes Neurais Artificiais Aplicadas à Robótica de
+                    Enxame&rdquo;
                   </em>
                   .
                 </p>
@@ -710,30 +685,6 @@ export const BazkResume: Resume = {
                   Informática (UFPR)
                 </p>
               </>
-            ),
-          },
-        },
-        {
-          title: {
-            en: "Teaching and Research Initiation Program",
-            pt: "Programa de Iniciação à Docência - Monitoria",
-          },
-          fromDate: new Date("2010-03-01"),
-          toDate: new Date("2010-12-01"),
-          description: {
-            en: (
-              <p>
-                Discipline: Algorithms and Data Structures I. Advisor: Prof. Dr.
-                Fabiano Silva - Information Technology Deparment (UFPR)
-              </p>
-            ),
-            pt: (
-              <p>
-                Disciplina: Algoritmos e Estruturas de Dados I
-                <br />
-                Orientador: Prof. Dr. Fabiano Silva - Departamento de
-                Informática (UFPR)
-              </p>
             ),
           },
         },
@@ -751,20 +702,20 @@ export const BazkResume: Resume = {
       description: {
         en: (
           <p>
-            Paper published on IDEAS 2016 conference. Compiles results of
-            research work made while I was working in &ldquo;Centro de
-            Computação Científica e Software Livre (C3SL)&rdquo;. The paper
-            presents how NoSQL databases can be used in the context of Data
-            Warehouses and how we applied those concepts in our projects.
+            This paper, presented at the IDEAS 2016 conference, compiles the
+            results of research conducted at the "Centro de Computação
+            Científica e Software Livre (C3SL)". It explores the use of NoSQL
+            databases in the context of Data Warehouses and demonstrates how
+            these concepts were applied in our projects.
           </p>
         ),
         pt: (
           <p>
-            Artigo publicado na conferência IDEAS 2016 compilando os resultados
-            do trabalho de pesquisa realizado no Centro de Computação Científica
-            e Software Livre (C3SL). Trata sobre a utilização de banco de dados
-            NoSQL em Data Warehouses e como aplicamos esse conceito em alguns
-            projetos.
+            Este artigo, apresentado na conferência IDEAS 2016, compila os
+            resultados da pesquisa realizada no Centro de Computação Científica
+            e Software Livre (C3SL). Ele explora o uso de bancos de dados NoSQL
+            no contexto de Data Warehouses e demonstra como esses conceitos
+            foram aplicados em nossos projetos.
           </p>
         ),
       },
