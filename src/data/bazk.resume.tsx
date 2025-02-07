@@ -38,7 +38,7 @@ export const BazkResume: Resume = {
     name: "Eduardo Luis Buratti",
     tagline: {
       en: "Software Engineer & Architect",
-      pt: "Arquiteto & Engenheiro de Software | Canais Digitais",
+      pt: "Arquiteto & Engenheiro de Software",
     },
     email: "eburatti09@gmail.com",
     phone: {
@@ -240,26 +240,55 @@ export const BazkResume: Resume = {
           title: { en: "Sofisa Bank", pt: "Banco Sofisa" },
           description: {
             en: (
-              <p>
-                Developed a new Mobile and Web application for Banco Sofisa's
-                corporate clients. The challenge was simultaneous development
-                for both platforms while maximizing code reuse. I led the
-                technical solution design and commercial proposal, selecting
-                React Native for its cross-platform capabilities, and provided
-                technical leadership during development to ensure quality and
-                efficiency.
-              </p>
+              <>
+                <p>
+                  Developed a new Mobile and Web application for Banco Sofisa's
+                  corporate clients. The challenge was simultaneous development
+                  for both platforms while maximizing code reuse. I led the
+                  technical solution design and commercial proposal, selecting
+                  React Native for its cross-platform capabilities, and provided
+                  technical leadership during development to ensure quality and
+                  efficiency.
+                </p>
+                <ul>
+                  <li>
+                    Mobile and web architecture and development with{" "}
+                    <strong>React Native</strong> and <strong>Expo</strong>
+                  </li>
+                  <li>
+                    DevOps pipeline maintenance with{" "}
+                    <strong>Azure DevOps</strong>
+                  </li>
+                  <li>Technical leadership, mentoring, and team development</li>
+                </ul>
+              </>
             ),
             pt: (
-              <p>
-                Desenvolvi uma nova aplicação Mobile e Web para os clientes
-                corporativos do Banco Sofisa. O desafio foi o desenvolvimento
-                simultâneo para ambas as plataformas, maximizando o
-                reaproveitamento de código. Liderei a concepção da solução
-                técnica e a proposta comercial, escolhendo React Native por suas
-                capacidades multiplataforma, e forneci liderança técnica durante
-                o desenvolvimento para garantir qualidade e eficiência.
-              </p>
+              <>
+                <p>
+                  Desenvolvi uma nova aplicação Mobile e Web para os clientes
+                  corporativos do Banco Sofisa. O desafio foi o desenvolvimento
+                  simultâneo para ambas as plataformas, maximizando o
+                  reaproveitamento de código. Liderei a concepção da solução
+                  técnica e a proposta comercial, escolhendo React Native por
+                  suas capacidades multiplataforma, e forneci liderança técnica
+                  durante o desenvolvimento para garantir qualidade e
+                  eficiência.
+                </p>
+                <ul>
+                  <li>
+                    Arquitetura e desenvolvimento mobile e web com{" "}
+                    <strong>React Native</strong> e <strong>Expo</strong>
+                  </li>
+                  <li>
+                    Manutenção de esteira DevOps com{" "}
+                    <strong>Azure DevOps</strong>
+                  </li>
+                  <li>
+                    Liderança técnica, mentoria e desenvolvimento de equipes
+                  </li>
+                </ul>
+              </>
             ),
           },
         },
@@ -270,26 +299,56 @@ export const BazkResume: Resume = {
           },
           description: {
             en: (
-              <p>
-                The Digital Studio at GFT centralizes expertise in digital
-                channels, customer experience, agility, and digital assets. I
-                support commercial activities related to digital channels,
-                aligning customer needs with innovative and optimized technical
-                solutions. Additionally, we conduct training and qualification
-                actions for GFT professionals, enhancing our community of Mobile
-                and Web developers.
-              </p>
+              <>
+                <p>
+                  The Digital Studio at GFT centralizes expertise in digital
+                  channels, customer experience, agility, and digital assets. I
+                  support commercial activities related to digital channels,
+                  aligning customer needs with innovative and optimized
+                  technical solutions. Additionally, we conduct training and
+                  qualification actions for GFT professionals, enhancing our
+                  community of Mobile and Web developers.
+                </p>
+                <ul>
+                  <li>Solution architecture and project estimation</li>
+                  <li>Development of commercial proposals</li>
+                  <li>
+                    Development of new business in the area of digital channels
+                  </li>
+                  <li>
+                    Training and qualification of professionals in technologies
+                    for digital channels
+                  </li>
+                  <li>Technical leadership, mentoring, and team development</li>
+                </ul>
+              </>
             ),
             pt: (
-              <p>
-                O Digital Studio da GFT centraliza expertise em canais digitais,
-                experiência do cliente, agilidade e ativos digitais. Apoio
-                atividades comerciais relacionadas a canais digitais, alinhando
-                as necessidades dos clientes com soluções técnicas inovadoras e
-                otimizadas. Além disso, realizamos ações de treinamento e
-                qualificação para profissionais da GFT, aprimorando nossa
-                comunidade de desenvolvedores Mobile e Web.
-              </p>
+              <>
+                <p>
+                  O Digital Studio da GFT centraliza expertise em canais
+                  digitais, experiência do cliente, agilidade e ativos digitais.
+                  Apoio atividades comerciais relacionadas a canais digitais,
+                  alinhando as necessidades dos clientes com soluções técnicas
+                  inovadoras e otimizadas. Além disso, realizamos ações de
+                  treinamento e qualificação para profissionais da GFT,
+                  aprimorando nossa comunidade de desenvolvedores Mobile e Web.
+                </p>
+                <ul>
+                  <li>Arquitetura de soluções e estimativa de projetos</li>
+                  <li>Construção de propostas comerciais</li>
+                  <li>
+                    Desenvolvimento de novos negócios na área de canais digitais
+                  </li>
+                  <li>
+                    Treinamento e capacitação de profissionais em tecnologias
+                    para canais digitais
+                  </li>
+                  <li>
+                    Liderança técnica, mentoria e desenvolvimento de equipes
+                  </li>
+                </ul>
+              </>
             ),
           },
         },
@@ -297,26 +356,52 @@ export const BazkResume: Resume = {
           title: "Bradesco Bank",
           description: {
             en: (
-              <p>
-                Bradesco Bank, based in Florida, serves over 11,000 non-resident
-                customers in the US. I led a team to modernize the full-stack
-                Web application experience using React and Python. The main
-                challenge was aligning with various third-party tools to develop
-                improvements within their limitations. We made structural
-                technology improvements while delivering optimized customer
-                journeys.
-              </p>
+              <>
+                <p>
+                  Bradesco Bank, based in Florida, serves over 11,000
+                  non-resident customers in the US. I led a team to modernize
+                  the full-stack Web application experience using React and
+                  Python. The main challenge was aligning with various
+                  third-party tools to develop improvements within their
+                  limitations. We made structural technology improvements while
+                  delivering optimized customer journeys.
+                </p>
+                <ul>
+                  <li>
+                    Full-stack architecture and development with{" "}
+                    <strong>React</strong> and <strong>Python</strong>
+                  </li>
+                  <li>
+                    Maintenance of DevOps pipeline with <strong>Gitlab</strong>
+                  </li>
+                  <li>Technical leadership, mentoring, and team development</li>
+                </ul>
+              </>
             ),
             pt: (
-              <p>
-                O Bradesco Bank, localizado na Flórida, atende mais de 11 mil
-                clientes não-residentes nos EUA. Liderei uma equipe para
-                modernizar a experiência da aplicação Web full-stack usando
-                React e Python. O principal desafio foi alinhar com várias
-                ferramentas de terceiros para desenvolver melhorias dentro de
-                suas limitações. Fizemos melhorias estruturais na tecnologia
-                enquanto entregávamos jornadas otimizadas para os clientes.
-              </p>
+              <>
+                <p>
+                  O Bradesco Bank, localizado na Flórida, atende mais de 11 mil
+                  clientes não-residentes nos EUA. Liderei uma equipe para
+                  modernizar a experiência da aplicação Web full-stack usando
+                  React e Python. O principal desafio foi alinhar com várias
+                  ferramentas de terceiros para desenvolver melhorias dentro de
+                  suas limitações. Fizemos melhorias estruturais na tecnologia
+                  enquanto entregávamos jornadas otimizadas para os clientes.
+                </p>
+                <ul>
+                  <li>
+                    Arquitetura e desenvolvimento full-stack com{" "}
+                    <strong>React</strong> e <strong>Python</strong>
+                  </li>
+                  <li>
+                    Manutenção de esteira DevOps com <strong>Gitlab</strong>
+                  </li>
+                  <li>
+                    Liderança técnica, mentoria e desenvolvimento de equipes
+                  </li>
+                </ul>
+              </>
             ),
           },
         },
@@ -324,25 +409,59 @@ export const BazkResume: Resume = {
           title: { en: "GFT Internal Project", pt: "Projeto Interno GFT" },
           description: {
             en: (
-              <p>
-                I led the development of a management tool at GFT, from project
-                conception to solution architecture, including Cloud
-                infrastructure (AWS), development pipeline (Gitlab CI, Cypress,
-                AWS Serverless), back-end (.NET), and front-end (Angular). I led
-                the development and testing team throughout the delivery of
-                various features.
-              </p>
+              <>
+                <p>
+                  I led the development of a management tool at GFT, from
+                  project conception to solution architecture, including Cloud
+                  infrastructure (AWS), development pipeline (Gitlab CI,
+                  Cypress, AWS Serverless), back-end (.NET), and front-end
+                  (Angular). I led the development and testing team throughout
+                  the delivery of various features.
+                </p>
+                <ul>
+                  <li>
+                    Full-stack architecture and development with{" "}
+                    <strong>React</strong> and <strong>.NET (C#)</strong>
+                  </li>
+                  <li>
+                    Development and maintenance of DevOps pipeline with{" "}
+                    <strong>Gitlab</strong>
+                  </li>
+                  <li>
+                    Cloud architecture based on <strong>AWS</strong>
+                  </li>
+                  <li>Technical leadership, mentoring, and team development</li>
+                </ul>
+              </>
             ),
             pt: (
-              <p>
-                Liderei o desenvolvimento de uma ferramenta de gestão na GFT,
-                desde a concepção do projeto até a arquitetura da solução,
-                incluindo infraestrutura Cloud (AWS), pipeline de
-                desenvolvimento (Gitlab CI, Cypress, AWS Serverless), back-end
-                (.NET) e front-end (Angular). Liderei a equipe de
-                desenvolvimento e testes durante a entrega de várias
-                funcionalidades.
-              </p>
+              <>
+                <p>
+                  Liderei o desenvolvimento de uma ferramenta de gestão na GFT,
+                  desde a concepção do projeto até a arquitetura da solução,
+                  incluindo infraestrutura Cloud (AWS), pipeline de
+                  desenvolvimento (Gitlab CI, Cypress, AWS Serverless), back-end
+                  (.NET) e front-end (Angular). Liderei a equipe de
+                  desenvolvimento e testes durante a entrega de várias
+                  funcionalidades.
+                </p>
+                <ul>
+                  <li>
+                    Arquitetura e desenvolvimento full-stack com{" "}
+                    <strong>React</strong> e <strong>.NET (C#)</strong>
+                  </li>
+                  <li>
+                    Construção e manutenção de esteira DevOps com{" "}
+                    <strong>Gitlab</strong>
+                  </li>
+                  <li>
+                    Arquitetura Cloud baseada em <strong>AWS</strong>
+                  </li>
+                  <li>
+                    Liderança técnica, mentoria e desenvolvimento de equipes
+                  </li>
+                </ul>
+              </>
             ),
           },
         },
@@ -350,29 +469,63 @@ export const BazkResume: Resume = {
           title: "Mitre Realty",
           description: {
             en: (
-              <p>
-                Mitre Realty, as a company in the civil construction industry,
-                developed a mobile application called Mitre Experience, based on
-                React Native, Node.js, and Oracle, to stay close to its
-                customers. I acted as the technical leader in a squad focused on
-                evolving this product, delivering personalized experiences to
-                users based on data and geolocation. Additionally, I optimized
-                the automated testing and development pipeline using Gitlab CI,
-                Playwright, and App Center+CodePush.
-              </p>
+              <>
+                <p>
+                  Mitre Realty, as a company in the civil construction industry,
+                  developed a mobile application called Mitre Experience, based
+                  on React Native, Node.js, and Oracle, to stay close to its
+                  customers. I acted as the technical leader in a squad focused
+                  on evolving this product, delivering personalized experiences
+                  to users based on data and geolocation. Additionally, I
+                  optimized the automated testing and development pipeline using
+                  Gitlab CI, Playwright, and App Center+CodePush.
+                </p>
+                <ul>
+                  <li>
+                    Development with <strong>React</strong> and{" "}
+                    <strong>React Native</strong>
+                  </li>
+                  <li>
+                    Unit testing with <strong>Jest</strong>
+                  </li>
+                  <li>
+                    Maintenance of the DevOps pipeline with{" "}
+                    <strong>Gitlab</strong> and <strong>AppCenter</strong>
+                  </li>
+                  <li>Technical leadership, mentoring, and team development</li>
+                </ul>
+              </>
             ),
             pt: (
-              <p>
-                A Mitre Realty, como empresa no ramo de construção civíl,
-                desenvolveu um aplicativo mobile chamado Mitre Experience,
-                baseado em React Native, Node.js e Oracle, para se manter
-                próxima de seus clientes. Atuei como líder técnico em um squad
-                focado na evolução deste produto, entregando experiências
-                personalizadas aos usuários com base em dados e geolocalização.
-                Além disso, otimizei a esteira de testes automatizados e
-                desenvolvimento usando Gitlab CI, Playwright e App
-                Center+CodePush.
-              </p>
+              <>
+                <p>
+                  A Mitre Realty, como empresa no ramo de construção civíl,
+                  desenvolveu um aplicativo mobile chamado Mitre Experience,
+                  baseado em React Native, Node.js e Oracle, para se manter
+                  próxima de seus clientes. Atuei como líder técnico em um squad
+                  focado na evolução deste produto, entregando experiências
+                  personalizadas aos usuários com base em dados e
+                  geolocalização. Além disso, otimizei a esteira de testes
+                  automatizados e desenvolvimento usando Gitlab CI, Playwright e
+                  App Center+CodePush.
+                </p>
+                <ul>
+                  <li>
+                    Desenvolvimento com <strong>React</strong> e{" "}
+                    <strong>React Native</strong>
+                  </li>
+                  <li>
+                    Testes unitários com <strong>Jest</strong>
+                  </li>
+                  <li>
+                    Manutenção da esteira DevOps com <strong>Gitlab</strong> e{" "}
+                    <strong>AppCenter</strong>.
+                  </li>
+                  <li>
+                    Liderança técnica, mentoria e desenvolvimento de equipes
+                  </li>
+                </ul>
+              </>
             ),
           },
         },
@@ -380,27 +533,60 @@ export const BazkResume: Resume = {
           title: "Share Student Living",
           description: {
             en: (
-              <p>
-                I led a team at Share Student Living, a Mitre group spin-off
-                focused on shared apartment rentals for university students. I
-                worked on the mobile application (React Native), implementing
-                new features for self-service requests, reducing the need for
-                call center contact. I also optimized the back-office system,
-                improving user journeys and reducing execution time for various
-                activities.
-              </p>
+              <>
+                <p>
+                  I led a team at Share Student Living, a Mitre group spin-off
+                  focused on shared apartment rentals for university students. I
+                  worked on the mobile application (React Native), implementing
+                  new features for self-service requests, reducing the need for
+                  call center contact. I also optimized the back-office system,
+                  improving user journeys and reducing execution time for
+                  various activities.
+                </p>
+                <ul>
+                  <li>
+                    Development with <strong>React</strong> and{" "}
+                    <strong>React Native</strong>
+                  </li>
+                  <li>
+                    Unit testing with <strong>Jest</strong>
+                  </li>
+                  <li>
+                    Maintenance of the DevOps pipeline with{" "}
+                    <strong>Gitlab</strong>
+                  </li>
+                  <li>Technical leadership, mentoring, and team development</li>
+                </ul>
+              </>
             ),
             pt: (
-              <p>
-                Liderei uma equipe na Share Student Living, uma spin-off do
-                grupo Mitre focada em aluguel de apartamentos compartilhados
-                para estudantes universitários. Trabalhei no aplicativo mobile
-                (React Native), implementando novas funcionalidades para
-                requisições self-service, reduzindo a necessidade de contato com
-                o call center. Também otimizei o sistema de back-office,
-                melhorando as jornadas de usuário e reduzindo o tempo de
-                execução de várias atividades.
-              </p>
+              <>
+                <p>
+                  Liderei uma equipe na Share Student Living, uma spin-off do
+                  grupo Mitre focada em aluguel de apartamentos compartilhados
+                  para estudantes universitários. Trabalhei no aplicativo mobile
+                  (React Native), implementando novas funcionalidades para
+                  requisições self-service, reduzindo a necessidade de contato
+                  com o call center. Também otimizei o sistema de back-office,
+                  melhorando as jornadas de usuário e reduzindo o tempo de
+                  execução de várias atividades.
+                </p>
+                <ul>
+                  <li>
+                    Desenvolvimento com <strong>React</strong> e{" "}
+                    <strong>React Native</strong>
+                  </li>
+                  <li>
+                    Testes unitários com <strong>Jest</strong>
+                  </li>
+                  <li>
+                    Manutenção da esteira DevOps com <strong>Gitlab</strong>
+                  </li>
+                  <li>
+                    Liderança técnica, mentoria e desenvolvimento de equipes
+                  </li>
+                </ul>
+              </>
             ),
           },
         },
@@ -417,33 +603,75 @@ export const BazkResume: Resume = {
           title: "Banco BV",
           description: {
             en: (
-              <p>
-                I worked as a front-end developer on a project to modernize and
-                restructure Banco BV's digital channels. My role involved
-                migrating several legacy technologies (Angular.js, JSP, etc.) to
-                more modern and flexible platforms (Angular 9/11, Liferay,
-                etc.), transforming the entire content management workflow. I
-                also participated in the bank's brand update process, making
-                progressive adjustments to the visual and verbal communication
-                of the channels (website, web application). Additionally, I
-                worked with the Adobe Maxymiser platform for A/B testing, later
-                migrating to Salesforce Marketing Cloud and Interaction Studio.
-              </p>
+              <>
+                <p>
+                  I worked as a front-end developer on a project to modernize
+                  and restructure Banco BV's digital channels. My role involved
+                  migrating several legacy technologies (Angular.js, JSP, etc.)
+                  to more modern and flexible platforms (Angular 9/11, Liferay,
+                  etc.), transforming the entire content management workflow. I
+                  also participated in the bank's brand update process, making
+                  progressive adjustments to the visual and verbal communication
+                  of the channels (website, web application). Additionally, I
+                  worked with the Adobe Maxymiser platform for A/B testing,
+                  later migrating to Salesforce Marketing Cloud and Interaction
+                  Studio.
+                </p>
+                <ul>
+                  <li>
+                    Development with <strong>Angular</strong> and{" "}
+                    <strong>Angular.js</strong>
+                  </li>
+                  <li>
+                    Unit testing with <strong>Karma</strong> and{" "}
+                    <strong>Jasmine</strong>
+                  </li>
+                  <li>
+                    Maintenance of the DevOps pipeline with{" "}
+                    <strong>Jenkins</strong>
+                  </li>
+                  <li>
+                    Modernization of legacy CMS platforms (
+                    <strong>OpenCMS</strong> to <strong>Liferay</strong>)
+                  </li>
+                  <li>Implementation of A/B tests</li>
+                </ul>
+              </>
             ),
             pt: (
-              <p>
-                Atuei como desenvolvedor front-end no projeto de modernização e
-                reestruturação dos canais digitais do Banco BV. Minha função
-                envolveu a migração de várias tecnologias legadas (Angular.js,
-                JSP, etc.) para plataformas mais modernas e flexíveis (Angular
-                9/11, Liferay, etc.), transformando todo o fluxo de gestão de
-                conteúdo. Também participei do processo de atualização da marca
-                do banco, realizando ajustes progressivos na comunicação visual
-                e verbal dos canais (site, aplicativo web). Além disso,
-                trabalhei com a plataforma Adobe Maxymiser para testes A/B,
-                migrando posteriormente para o Salesforce Marketing Cloud e
-                Interaction Studio.
-              </p>
+              <>
+                <p>
+                  Atuei como desenvolvedor front-end no projeto de modernização
+                  e reestruturação dos canais digitais do Banco BV. Minha função
+                  envolveu a migração de várias tecnologias legadas (Angular.js,
+                  JSP, etc.) para plataformas mais modernas e flexíveis (Angular
+                  9/11, Liferay, etc.), transformando todo o fluxo de gestão de
+                  conteúdo. Também participei do processo de atualização da
+                  marca do banco, realizando ajustes progressivos na comunicação
+                  visual e verbal dos canais (site, aplicativo web). Além disso,
+                  trabalhei com a plataforma Adobe Maxymiser para testes A/B,
+                  migrando posteriormente para o Salesforce Marketing Cloud e
+                  Interaction Studio.
+                </p>
+                <ul>
+                  <li>
+                    Desenvolvimento com <strong>Angular</strong> e{" "}
+                    <strong>Angular.js</strong>
+                  </li>
+                  <li>
+                    Testes unitários com <strong>Karma</strong> e{" "}
+                    <strong>Jasmine</strong>
+                  </li>
+                  <li>
+                    Manutenção da esteira DevOps com <strong>Jenkins</strong>
+                  </li>
+                  <li>
+                    Modernização de plataformas CMS legadas (
+                    <strong>OpenCMS</strong> para <strong>Liferay</strong>)
+                  </li>
+                  <li>Implementação de testes A/B</li>
+                </ul>
+              </>
             ),
           },
         },
@@ -467,31 +695,29 @@ export const BazkResume: Resume = {
             </p>
             <ul>
               <li>
-                Managed cloud computing infrastructure, primarily with{" "}
-                <strong>Amazon AWS</strong>
+                Development of front-end applications using{" "}
+                <strong>React</strong> (redux, styled-components, etc.)
               </li>
               <li>
-                Implemented Continuous Integration and Continuous Delivery using{" "}
-                <strong>Gitlab CI/CD</strong>
-              </li>
-              <li>
-                Orchestrated and provisioned cloud resources with{" "}
-                <strong>Kubernetes</strong> and <strong>Terraform</strong>
-              </li>
-              <li>
-                Developed front-end applications using <strong>React</strong>{" "}
-                (redux, styled-components, etc.)
-              </li>
-              <li>
-                Modeled APIs with <strong>REST</strong> and{" "}
+                API modeling with <strong>REST</strong> and{" "}
                 <strong>GraphQL</strong>
               </li>
               <li>
-                Built back-end systems with <strong>Elixir</strong> and{" "}
+                Back-end development with <strong>Elixir</strong> and{" "}
                 <strong>Node.js</strong>
               </li>
-              <li>Managed projects and teams</li>
-              <li>Applied Scrum and Agile methodologies</li>
+              <li>
+                Cloud computing infrastructure management, primarily with{" "}
+                <strong>Amazon AWS</strong>
+              </li>
+              <li>
+                CI/CD pipeline development using <strong>Gitlab CI/CD</strong>
+              </li>
+              <li>
+                Cloud resources configuration and provisioning with{" "}
+                <strong>Kubernetes</strong> and <strong>Terraform</strong>
+              </li>
+              <li>Team and project management</li>
               <li>
                 Provided technical leadership, mentoring, and team development
               </li>
@@ -508,34 +734,30 @@ export const BazkResume: Resume = {
             </p>
             <ul>
               <li>
-                Gerenciei a infraestrutura de computação em nuvem,
-                principalmente com <strong>Amazon AWS</strong>
+                Desenvolvimento de aplicações front-end com{" "}
+                <strong>React</strong> (redux, styled-components, etc.)
               </li>
               <li>
-                Implementei Integração Contínua e Entrega Contínua usando{" "}
-                <strong>Gitlab CI/CD</strong>
-              </li>
-              <li>
-                Orquestrei e provisionei recursos em nuvem com{" "}
-                <strong>Kubernetes</strong> e <strong>Terraform</strong>
-              </li>
-              <li>
-                Desenvolvi aplicações front-end com <strong>React</strong>{" "}
-                (redux, styled-components, etc.)
-              </li>
-              <li>
-                Modelei APIs com <strong>REST</strong> e{" "}
+                Modelagem de APIs com <strong>REST</strong> e{" "}
                 <strong>GraphQL</strong>
               </li>
               <li>
-                Construí sistemas back-end com <strong>Elixir</strong> e{" "}
+                Construção de sistemas back-end com <strong>Elixir</strong> e{" "}
                 <strong>Node.js</strong>
               </li>
-              <li>Gerenciei projetos e equipes</li>
-              <li>Apliquei metodologias Scrum e Agile</li>
               <li>
-                Forneci liderança técnica, mentoria e desenvolvimento de equipes
+                Gerenciamento de infraestrutura de computação em nuvem,
+                principalmente com <strong>Amazon AWS</strong>
               </li>
+              <li>
+                Implementação de CI/CD usando <strong>Gitlab</strong>
+              </li>
+              <li>
+                Configuração e provisionamento de recursos em nuvem com{" "}
+                <strong>Kubernetes</strong> e <strong>Terraform</strong>
+              </li>
+              <li>Geranciamento de projetos e equipes</li>
+              <li>Liderança técnica, mentoria e desenvolvimento de equipes</li>
             </ul>
           </>
         ),
@@ -564,28 +786,25 @@ export const BazkResume: Resume = {
             </p>
             <ul>
               <li>
-                Developed RESTful APIs with <strong>Node.js</strong>
+                Full-stack Web application development with Play Framework (
+                <strong>Java</strong>) and <strong>Angular.js</strong>
               </li>
               <li>
-                Designed and maintained <strong>Data Warehouses</strong>
+                RESTful API development with <strong>Node.js</strong>
               </li>
               <li>
-                Managed databases with <strong>PostgreSQL</strong> and{" "}
+                <strong>Data Warehouse</strong> development and maitenance
+              </li>
+              <li>
+                Database operation with <strong>PostgreSQL</strong> and{" "}
                 <strong>MongoDB</strong>
               </li>
               <li>
-                Deployed services using <strong>Docker</strong>
-              </li>
-              <li>
-                Built web applications with Play Framework (
-                <strong>Java</strong>) and <strong>Angular.js</strong>
+                <strong>Docker</strong> services deployment and management
               </li>
               <li>
                 Trained teams in <strong>Node.js</strong> and{" "}
                 <strong>Angular.js</strong>
-              </li>
-              <li>
-                Administered <strong>Linux</strong> systems
               </li>
             </ul>
           </>
@@ -603,6 +822,10 @@ export const BazkResume: Resume = {
             </p>
             <ul>
               <li>
+                Desenvolvimento full-stack de aplicações Web com os frameworks
+                Play (<strong>Java</strong>) e <strong>Angular.js</strong>
+              </li>
+              <li>
                 Criação de APIs RESTful com <strong>Node.js</strong>
               </li>
               <li>
@@ -616,15 +839,8 @@ export const BazkResume: Resume = {
                 Deploy de serviços utilizando <strong>Docker</strong>
               </li>
               <li>
-                Construção de aplicações Web com os frameworks Play (
-                <strong>Java</strong>) e <strong>Angular.js</strong>
-              </li>
-              <li>
                 Treinamento de equipes em <strong>Node.js</strong> e{" "}
                 <strong>Angular.js</strong>
-              </li>
-              <li>
-                Administração de servidores <strong>Linux</strong>
               </li>
             </ul>
           </>
