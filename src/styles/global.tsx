@@ -9,7 +9,7 @@ const quattrocentoSans = Quattrocento_Sans({
 });
 
 const cssVariables = css`
-  :root {
+  body {
     --font-family: ${quattrocentoSans.style.fontFamily};
     --font-family-headings: ${workSans.style.fontFamily};
 
@@ -21,6 +21,7 @@ const cssVariables = css`
     --background-end-rgb: 255, 255, 255;
 
     --page-width: 960px;
+    --page-background: rgb(255, 255, 255);
 
     --primary-rgb: 46, 154, 130;
 
@@ -41,6 +42,17 @@ const cssVariables = css`
 
     --box-shadow: 1px 1px 5px -2px rgba(0, 0, 0, 0.6);
   }
+
+  body.dark {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 33, 33, 33;
+    --page-background: rgb(0, 0, 0);
+
+    --text-color: rgb(var(--foreground-rgb));
+    --text-color-light: rgba(var(--foreground-rgb), 0.4);
+    --text-color-lighter: rgba(var(--foreground-rgb), 0.15);
+  }
 `;
 
 const reset = css`
@@ -58,7 +70,7 @@ const reset = css`
 `;
 
 const typography = css`
-  html {
+  body {
     font-family: var(--font-family);
     color: rgb(var(--foreground-rgb));
     word-wrap: break-word;

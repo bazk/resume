@@ -5,7 +5,7 @@ export const Container = styled.div`
   margin: 2rem auto;
   width: var(--page-width);
   padding: 1rem 2rem;
-  background: white;
+  background: var(--page-background);
   box-shadow: var(--box-shadow);
 
   @media print {
