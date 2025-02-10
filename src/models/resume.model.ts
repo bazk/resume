@@ -53,7 +53,11 @@ export interface Resume {
     expirationDate?: Date;
     description?: OptionallyLocalized<ReactNode>;
     link?: string;
-    image?: string;
+    image?: {
+      src: string;
+      width: number;
+      height: number;
+    };
   }[];
 
   publications?: {

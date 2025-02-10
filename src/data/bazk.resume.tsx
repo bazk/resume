@@ -945,7 +945,11 @@ export const BazkResume: Resume = {
       issueDate: new Date("2020-03-01"),
       expirationDate: new Date("2023-03-01"),
       link: "https://www.credly.com/badges/01442cb9-4225-46fb-8c45-dc35437e837f",
-      image: "/images/aws-certified-solutions-architect.png",
+      image: {
+        src: "/images/aws-certified-solutions-architect.png",
+        width: 300,
+        height: 300,
+      },
     },
   ],
 };

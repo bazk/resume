@@ -18,8 +18,9 @@ const CertMain = styled.div`
   flex-grow: 1;
 `;
 
-const CertAside = styled.div`
-  width: 10rem;
+const CertImage = styled(Image)`
+  width: 12rem;
+  height: auto;
 `;
 
 const Title = styled.h3`
@@ -63,7 +64,11 @@ export type CertificationProps = {
   issueDate?: Date;
   expirationDate?: Date;
   link?: string;
-  image?: string;
+  image?: {
+    src: string;
+    width: number;
+    height: number;
+  };
   children: React.ReactNode;
 };
 
@@ -121,12 +126,16 @@ export function Certification({
       </CertMain>
 
       {image && (
-        <CertAside>
-          <Image
-            src={image.startsWith("/") ? `${router.basePath}${image}` : image}
-            alt={title}
-          />
-        </CertAside>
+        <CertImage
+          src={
+            image.src.startsWith("/")
+              ? `${router.basePath}${image.src}`
+              : image.src
+          }
+          alt={title}
+          width={image.width}
+          height={image.height}
+        />
       )}
     </Wrapper>
   );

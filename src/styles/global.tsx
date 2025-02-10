@@ -179,7 +179,7 @@ const typography = css`
     margin: 0;
     padding: 0;
     margin-bottom: calc(1.45rem - 1px);
-    background: var(--text-color-light)
+    background: var(--text-color-light);
     border: none;
     height: 1px;
   }
