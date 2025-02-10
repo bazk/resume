@@ -5,6 +5,7 @@ import { DateIntervalSeparator } from "@/components/DateIntervalSeparator";
 import { IconLink } from "@/icons/IconLink";
 import { useDateFormatter } from "@/hooks/useDateFormatter";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const Wrapper = styled.div`
   display: flex;
@@ -57,7 +58,7 @@ const CertLink = styled.a`
 `;
 
 export type CertificationProps = {
-  title?: string;
+  title: string;
   organization?: string;
   issueDate?: Date;
   expirationDate?: Date;
@@ -121,7 +122,7 @@ export function Certification({
 
       {image && (
         <CertAside>
-          <img
+          <Image
             src={image.startsWith("/") ? `${router.basePath}${image}` : image}
             alt={title}
           />

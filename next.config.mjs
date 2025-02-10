@@ -1,5 +1,6 @@
-/** @type {import('next').NextConfig} */
+// @ts-check
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
@@ -8,6 +9,9 @@ const nextConfig = {
   trailingSlash: true,
   compiler: {
     styledComponents: true,
+  },
+  images: {
+    unoptimized: true,
   },
 };
 

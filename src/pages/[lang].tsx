@@ -204,7 +204,7 @@ export default function ResumePage({ lang }: ResumePageProps) {
               {data.certifications.map((cert, idx) => (
                 <Certification
                   key={idx}
-                  title={l(cert.title)}
+                  title={l(cert.title) || ""}
                   organization={l(cert.organization)}
                   issueDate={cert.issueDate}
                   expirationDate={cert.expirationDate}

@@ -242,13 +242,13 @@ export const BazkResume: Resume = {
             en: (
               <>
                 <p>
-                  Developed a new Mobile and Web application for Banco Sofisa's
-                  corporate clients. The challenge was simultaneous development
-                  for both platforms while maximizing code reuse. I led the
-                  technical solution design and commercial proposal, selecting
-                  React Native for its cross-platform capabilities, and provided
-                  technical leadership during development to ensure quality and
-                  efficiency.
+                  Developed a new Mobile and Web application for Banco
+                  Sofisa&apos;s corporate clients. The challenge was
+                  simultaneous development for both platforms while maximizing
+                  code reuse. I led the technical solution design and commercial
+                  proposal, selecting React Native for its cross-platform
+                  capabilities, and provided technical leadership during
+                  development to ensure quality and efficiency.
                 </p>
                 <ul>
                   <li>
@@ -606,16 +606,16 @@ export const BazkResume: Resume = {
               <>
                 <p>
                   I worked as a front-end developer on a project to modernize
-                  and restructure Banco BV's digital channels. My role involved
-                  migrating several legacy technologies (Angular.js, JSP, etc.)
-                  to more modern and flexible platforms (Angular 9/11, Liferay,
-                  etc.), transforming the entire content management workflow. I
-                  also participated in the bank's brand update process, making
-                  progressive adjustments to the visual and verbal communication
-                  of the channels (website, web application). Additionally, I
-                  worked with the Adobe Maxymiser platform for A/B testing,
-                  later migrating to Salesforce Marketing Cloud and Interaction
-                  Studio.
+                  and restructure Banco BV&apos;s digital channels. My role
+                  involved migrating several legacy technologies (Angular.js,
+                  JSP, etc.) to more modern and flexible platforms (Angular
+                  9/11, Liferay, etc.), transforming the entire content
+                  management workflow. I also participated in the bank&apos;s
+                  brand update process, making progressive adjustments to the
+                  visual and verbal communication of the channels (website, web
+                  application). Additionally, I worked with the Adobe Maxymiser
+                  platform for A/B testing, later migrating to Salesforce
+                  Marketing Cloud and Interaction Studio.
                 </p>
                 <ul>
                   <li>
@@ -919,10 +919,10 @@ export const BazkResume: Resume = {
         en: (
           <p>
             This paper, presented at the IDEAS 2016 conference, compiles the
-            results of research conducted at the "Centro de Computação
-            Científica e Software Livre (C3SL)". It explores the use of NoSQL
-            databases in the context of Data Warehouses and demonstrates how
-            these concepts were applied in our projects.
+            results of research conducted at the &quot;Centro de Computação
+            Científica e Software Livre (C3SL)&quot;. It explores the use of
+            NoSQL databases in the context of Data Warehouses and demonstrates
+            how these concepts were applied in our projects.
           </p>
         ),
         pt: (

@@ -24,7 +24,7 @@ export default function Document() {
         setTheme("dark");
       }
     }
-  }, []);
+  }, [setTheme]);
 
   return (
     <Html>
